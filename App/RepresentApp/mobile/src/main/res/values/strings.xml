@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Represent!</string>
+    <string name="welcome_message">Welcome to Represent!</string>
+    <string name="pick_location">Pick a location...</string>
+    <string name="search_location">Enter a zip code</string>
+    <string name="get_location">Use current location</string>
+    <string name="name_placeholder">Kyrie Irving</string>
+    <string name="senators">Senators</string>
+    <string name="email_placeholder">blah@gmail.com</string>
+    <string name="website_placeholder">www.netflix.com</string>
+    <string name="handle_placeholder">\@sendavidperdue</string>
+    <string name="tweet_placeholder">A member of my staff made a new friendlkjkd askdjlflkasd fsfdsf.</string>
+    <string name="representatives">Representatives</string>
+    <string name="party_placeholder">Party: Democrat</string>
+    <string name="eod_placeholder">End of Term: Jan 3, 2021</string>
+    <string name="committees_placeholder">Committees:</string>
+    <string name="bills_placeholder">Sponsored Bills:</string>
+</resources>

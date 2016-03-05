@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/collapsed_rep_item_width" android:layout_height="@dimen/collapsed_rep_item_height"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rep_item_background"
+        android:background="@drawable/reps_shape_democrat" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/collapsed_rep_item_width_half"
+        android:orientation="horizontal"
+        android:id="@+id/top_half"
+        >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/collapsed_rep_item_name"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textColor="@color/icons"
+                android:text="@string/name_placeholder"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_below="@id/collapsed_rep_item_name"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/rep_more_info"
+                    android:src="@drawable/ic_more_horiz_white_24dp"/>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/rep_photo"
+            android:layout_height="@dimen/collapsed_rep_item_width_half" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/collapsed_rep_item_height_half"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/top_half">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/rep_email"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="2dp"
+            android:textColor="@color/icons"
+            android:textSize="10sp"
+            android:autoLink="web"
+            android:text="@string/email_placeholder"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/rep_website"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="2dp"
+            android:textColor="@color/icons"
+            android:textSize="10sp"
+            android:autoLink="web"
+            android:text="@string/website_placeholder"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/detail_twitter"
+                android:scaleX="2"
+                android:scaleY="2"
+                android:id="@+id/twitter_logo"
+                android:layout_marginStart="13dp"
+                android:layout_marginEnd="13dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:id="@+id/rep_twitter_handle"
+                android:textColor="@color/icons"
+                android:textSize="9sp"
+                android:layout_toEndOf="@id/twitter_logo"
+                android:layout_marginTop="0dp"
+                android:text="@string/handle_placeholder"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rep_last_tweet"
+                android:textColor="@color/icons"
+                android:layout_alignParentBottom="true"
+                android:textSize="9sp"
+                android:layout_toEndOf="@id/twitter_logo"
+                android:text="@string/tweet_placeholder"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

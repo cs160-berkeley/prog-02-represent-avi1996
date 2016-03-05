@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="edu.berkeley.cs160.represent.represent.PickLocationActivity">
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:id="@+id/app_bar_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:fitsSystemWindows="true"-->
+        <!--android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >-->
+
+        <!--<android.support.design.widget.CollapsingToolbarLayout-->
+            <!--android:id="@+id/collapsing_toolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="300dp"-->
+            <!--android:fitsSystemWindows="true"-->
+            <!--app:contentScrim="?attr/colorPrimary"-->
+            <!-->-->
+
+            <!--<android.support.v7.widget.Toolbar-->
+                <!--android:id="@+id/pick_location_toolbar"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:elevation="4dp"-->
+                <!--android:background="@color/primary"-->
+                <!--app:layout_collapseMode="pin"-->
+                <!--/>-->
+
+        <!--</android.support.design.widget.CollapsingToolbarLayout>-->
+
+
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:background="@color/primary"-->
+        <!--android:layout_alignParentTop="true" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_message"
+        android:textSize="20sp"
+        android:textColor="@color/accent"
+        android:textStyle="bold"
+        android:id="@+id/pick_location_welcome_message"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="121dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pick_location"
+        android:textSize="17sp"
+        android:textColor="@color/accent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/pick_location_welcome_message"
+        android:layout_marginTop="-121dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/primary"
+        android:paddingTop="21dp"
+        android:paddingBottom="21dp"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_search_white_24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/location_start_margin"
+                android:layout_alignParentStart="true"
+                android:id="@+id/search_location_icn"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="150dp"
+                android:hint="@string/search_location"
+                android:textColor="@color/icons"
+                android:textSize="18sp"
+                android:id="@+id/search_location"
+                android:textColorHint="@color/icons"
+                android:backgroundTint="@color/icons"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/search_location_icn"
+                android:layout_marginStart="@dimen/field_icon_separation"
+                android:singleLine="true"
+                android:inputType="number"
+                android:imeOptions="actionGo"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/or_text"
+                android:background="@color/icons"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OR"
+                android:textSize="15sp"
+                android:id="@+id/or_text"
+                android:textColor="@color/icons"
+                android:layout_marginStart="@dimen/field_icon_separation"
+                android:layout_marginEnd="@dimen/field_icon_separation"
+                android:layout_centerInParent="true"/>
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/or_text"
+                android:background="@color/icons"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/get_location_section"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_my_location_white_24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/location_start_margin"
+                android:layout_alignParentStart="true"
+                android:id="@+id/get_location_icn"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/get_location"
+                android:textSize="18sp"
+                android:text="@string/get_location"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/get_location_icn"
+                android:layout_marginStart="@dimen/field_icon_separation"
+                android:textColor="@color/icons" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.berkeley.cs160.represent.represent.VoteActivity"
+    tools:deviceIds="wear_round"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/democrat">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2012 PRESIDENTIAL ELECTION"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/icons"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fulton County, GA"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:id="@+id/location"
+        android:textColor="@color/icons"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barack Obama - 64.2%"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/brobama"
+        android:layout_weight="1"
+        android:textColor="@color/icons"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mitt Romney - 34.6%"
+        android:id="@+id/mitt"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+
+        android:textColor="@color/icons"/>
+
+</LinearLayout>

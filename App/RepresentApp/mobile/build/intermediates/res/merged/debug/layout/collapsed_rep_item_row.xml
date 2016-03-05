@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="@dimen/collapsed_rep_item_height"
+android:layout_below="@+id/senators_text_section"
+android:id="@+id/senators_section"
+    android:orientation="horizontal"
+android:layout_marginTop="@dimen/reps_list_separation">
+
+<include layout="@layout/collapsed_rep_item"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/rep_section_margin"
+    android:layout_marginTop="@dimen/rep_section_margin"
+    android:layout_marginBottom="@dimen/rep_section_margin"
+    android:id="@+id/rep_one"/>
+
+<include layout="@layout/collapsed_rep_item"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/rep_section_margin"
+    android:id="@+id/rep_two"/>
+
+</LinearLayout>
