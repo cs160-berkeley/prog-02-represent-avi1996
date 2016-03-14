@@ -9,7 +9,7 @@
     <color name="icons">#FFFFFF</color>
     <color name="divider">#B6B6B6</color>
     
-    <color name="republican">#F44336</color>
-    <color name="democrat">#2D9CDB</color>
+    <color name="republican">#FF0000</color>
+    <color name="democrat">#0000FF</color>
     <color name="independent">#FFEB3B</color>
 </resources>

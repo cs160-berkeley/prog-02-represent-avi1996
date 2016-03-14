@@ -13,7 +13,7 @@
     <dimen name="reps_list_separation">10dp</dimen>
     <dimen name="rep_section_margin">7dp</dimen>
     <dimen name="rep_image_width">80dp</dimen>
-    <dimen name="rep_image_height">130dp</dimen>
-    <dimen name="rep_text_size">17sp</dimen>
+    <dimen name="rep_image_height">110dp</dimen>
+    <dimen name="rep_text_size">15sp</dimen>
     <dimen name="field_text_separation">10dp</dimen>
 </resources>

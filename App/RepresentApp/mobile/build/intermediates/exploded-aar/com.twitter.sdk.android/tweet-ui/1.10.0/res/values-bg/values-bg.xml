@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/android/workspace/jenkins/workspace/fabric-android-deploy-to-staging/sdk/twitter/tweet-ui/src/main/res/values-bg/strings.xml -->
+    <eat-comment/>
+    <string name="tw__pause">пауза</string>
+    <string name="tw__play">пускане</string>
+    <string name="tw__replay">повторение</string>
+</resources>

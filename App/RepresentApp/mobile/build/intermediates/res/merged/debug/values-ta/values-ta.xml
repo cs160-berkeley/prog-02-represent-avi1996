@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dgts__confirmation_edit_hint">நாங்கள் உங்களுக்கு அனுப்பிய 6-இலக்கக் குறியீட்டை உள்ளிடவும்</string>
+    <string name="dgts__resend_confirmation_button_code">குறியீட்டை மீண்டும் அனுப்பு</string>
+    <string name="dgts__resend_confirmation_text">உறுதிபடுத்தல் குறியீட்டை மீண்டும் அனுப்பு</string>
+    <string name="tw__pause">இடைநிறுத்து</string>
+    <string name="tw__play">இயக்கு</string>
+    <string name="tw__replay">மீண்டும் இயக்கு</string>
+    <string name="tw__share_email_desc">%1$s அதன் தனியுரிமைக் கொள்கைக்கு இணங்க உங்கள் Twitter  கணக்கு \@%2$s-ஐப் பயன்படுத்தக் கூடிய வகையில் அந்தக் கணக்குடன் இணைக்கப்பட்டுள்ள மின்னஞ்சல் முகவரியை அணுக %1$s-ஐ அனுமதியுங்கள். எடுத்துக்காட்டாக, %1$s அந்த முகவரியில் புதுப்பிப்புகளையும் பிற தகவல்களையும் அனுப்பலாம்.</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/android/workspace/jenkins/workspace/fabric-android-deploy-to-staging/sdk/twitter/tweet-ui/src/main/res/values-ta/strings.xml -->
+    <eat-comment/>
+    <string name="tw__pause">இடைநிறுத்து</string>
+    <string name="tw__play">இயக்கு</string>
+    <string name="tw__replay">மீண்டும் இயக்கு</string>
+</resources>

@@ -255,8 +255,92 @@
                     "startLine": 54,
                     "startColumn": 4,
                     "startOffset": 3859,
+                    "endLine": 61,
+                    "endColumn": 12,
+                    "endOffset": 4364
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/1.0.3/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 236,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 4369,
+                    "endLine": 69,
+                    "endColumn": 12,
+                    "endOffset": 4880
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/1.0.3/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 746,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 1257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 4885,
+                    "endLine": 72,
+                    "endColumn": 12,
+                    "endOffset": 5042
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 227,
+                        "endLine": 6,
+                        "endColumn": 12,
+                        "endOffset": 384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 5047,
+                    "endLine": 77,
+                    "endColumn": 12,
+                    "endOffset": 5307
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 230,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 5312,
                     "endColumn": 70,
-                    "endOffset": 3925
+                    "endOffset": 5378
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v11/values-v11.xml",
@@ -271,11 +355,11 @@
             },
             {
                 "to": {
-                    "startLine": 55,
+                    "startLine": 79,
                     "startColumn": 4,
-                    "startOffset": 3930,
+                    "startOffset": 5383,
                     "endColumn": 82,
-                    "endOffset": 4008
+                    "endOffset": 5461
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v11/values-v11.xml",
@@ -290,12 +374,12 @@
             },
             {
                 "to": {
-                    "startLine": 56,
+                    "startLine": 80,
                     "startColumn": 4,
-                    "startOffset": 4013,
-                    "endLine": 106,
+                    "startOffset": 5466,
+                    "endLine": 130,
                     "endColumn": 12,
-                    "endOffset": 7716
+                    "endOffset": 9169
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v11/values-v11.xml",
@@ -311,12 +395,12 @@
             },
             {
                 "to": {
-                    "startLine": 107,
+                    "startLine": 131,
                     "startColumn": 4,
-                    "startOffset": 7721,
-                    "endLine": 158,
+                    "startOffset": 9174,
+                    "endLine": 182,
                     "endColumn": 12,
-                    "endOffset": 11564
+                    "endOffset": 13017
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v11/values-v11.xml",
@@ -332,11 +416,11 @@
             },
             {
                 "to": {
-                    "startLine": 159,
+                    "startLine": 183,
                     "startColumn": 4,
-                    "startOffset": 11569,
+                    "startOffset": 13022,
                     "endColumn": 90,
-                    "endOffset": 11655
+                    "endOffset": 13108
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v11/values-v11.xml",
@@ -346,25 +430,6 @@
                         "startOffset": 12469,
                         "endColumn": 90,
                         "endOffset": 12555
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 160,
-                    "startColumn": 4,
-                    "startOffset": 11660,
-                    "endColumn": 117,
-                    "endOffset": 11773
-                },
-                "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/res/values-v11/appinvite_styles.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 101,
-                        "endColumn": 117,
-                        "endOffset": 214
                     }
                 }
             }

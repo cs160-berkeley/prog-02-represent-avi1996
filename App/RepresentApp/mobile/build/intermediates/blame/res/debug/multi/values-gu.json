@@ -1,0 +1,140 @@
+[
+    {
+        "outputFile": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/res/merged/debug/values-gu/values-gu.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 94,
+                    "endOffset": 145
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 227,
+                        "endColumn": 94,
+                        "endOffset": 317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 150,
+                    "endColumn": 79,
+                    "endOffset": 225
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 322,
+                        "endColumn": 79,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 230,
+                    "endColumn": 83,
+                    "endOffset": 309
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 83,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 314,
+                    "endColumn": 44,
+                    "endOffset": 354
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 230,
+                        "endColumn": 44,
+                        "endOffset": 270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 359,
+                    "endColumn": 45,
+                    "endOffset": 400
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 275,
+                        "endColumn": 45,
+                        "endOffset": 316
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 405,
+                    "endColumn": 51,
+                    "endOffset": 452
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 321,
+                        "endColumn": 51,
+                        "endOffset": 368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 457,
+                    "endColumn": 263,
+                    "endOffset": 716
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.5/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 234,
+                        "endColumn": 263,
+                        "endOffset": 493
+                    }
+                }
+            }
+        ]
+    }
+]

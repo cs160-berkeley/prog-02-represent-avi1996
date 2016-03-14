@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/android/workspace/jenkins/workspace/fabric-android-deploy-to-staging/sdk/digits/digits/src/main/res/values-kn/strings.xml -->
+    <eat-comment/>
+    <string name="dgts__confirmation_edit_hint">ನಾವು ನಿಮಗೆ ಕಳುಹಿಸಿರುವ 6-ಅಂಕೆಯ ಕೋಡ್ ನಮೂದಿಸಿ</string>
+    <string name="dgts__resend_confirmation_button_code">ಕೋಡ್ ಪುನಃ ಕಳುಹಿಸಿ</string>
+    <string name="dgts__resend_confirmation_text">ದೃಢೀಕರಣ ಕೋಡ್ ಪುನಃ ಕಳುಹಿಸಿ</string>
+</resources>

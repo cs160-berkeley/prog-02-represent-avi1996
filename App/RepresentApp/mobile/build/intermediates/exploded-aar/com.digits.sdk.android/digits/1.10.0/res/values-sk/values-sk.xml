@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/android/workspace/jenkins/workspace/fabric-android-deploy-to-staging/sdk/digits/digits/src/main/res/values-sk/strings.xml -->
+    <eat-comment/>
+    <string name="dgts__call_me">Zavolajte mi</string>
+    <string name="dgts__calling">Vytáčam…</string>
+    <string name="dgts__confirmation_code">Potvrdzujúci kód</string>
+    <string name="dgts__confirmation_edit_hint">Zadajte 6-miestny kód, ktorý sme vám poslali</string>
+    <string name="dgts__confirmation_error">Nemožno potvrdiť vaše telefónne číslo</string>
+    <string name="dgts__confirmation_error_alternative">Prepáčte, pri odosielaní potvrdzujúceho kódu sa vyskytli problémy.</string>
+    <string name="dgts__confirmation_expired">Platnosť tohto kódu vypršala. Prepošlite si potvrdzujúci kód.</string>
+    <string name="dgts__continue">Pokračovať</string>
+    <string name="dgts__digits_logo_desc">ikona loga digits</string>
+    <string name="dgts__digits_logo_name_desc">názov loga digits</string>
+    <string name="dgts__dismiss">Zamietnuť</string>
+    <string name="dgts__done">Hotovo</string>
+    <string name="dgts__email_request_edit_hint">E-mailová adresa</string>
+    <string name="dgts__email_request_title">Zadajte e-mailovú adresu</string>
+    <string name="dgts__find_your_friends">Nájdite si svojich priateľov</string>
+    <string name="dgts__image_header_description">Ttulná fotka pre prihlásenie</string>
+    <string name="dgts__invalid_email">Neplatný E-mail. Skúste to znovu</string>
+    <string name="dgts__login_digits_text">Použiť moje telefónne číslo</string>
+    <string name="dgts__network_error">Skontrolujte vaše internetové pripojenie a skúste to znovu.</string>
+    <string name="dgts__not_now">Teraz nie</string>
+    <string name="dgts__okay">OK</string>
+    <string name="dgts__phone_number_edit_hint">Vaše telefónne číslo</string>
+    <string name="dgts__phone_number_text">Zadajte vaše telefónne číslo</string>
+    <string name="dgts__pin_code_verification_title">Zadajte 2-stupňový overovací kód</string>
+    <string name="dgts__resend_confirmation_button_code">Preposlať kód</string>
+    <string name="dgts__resend_confirmation_text">Preposlať potvrdzujúci kód</string>
+    <string name="dgts__sending">Odosiela sa…</string>
+    <string name="dgts__try_again">Skúsiť znovu</string>
+    <string name="dgts__try_again_confirmation">Skontrolujte váš kód a skúste to znovu.</string>
+    <string name="dgts__try_again_email">Skontrolujte si váš e-mail a skúste to znovu</string>
+    <string name="dgts__try_again_phone_number">Skontrolujte vaše telefónne číslo a skúste to znovu.</string>
+    <string name="dgts__try_another_phone">Skúste iné telefónne číslo</string>
+    <string name="dgts__unsupported_operator_error">Tomuto číslu je nemožné odoslať SMS správu.</string>
+    <string name="dgts__verification_code">Overovací kód</string>
+    <string name="dgts_pin_code_terms">Už ste predtým nastavili 2-stupňový overovací kód na digits.com</string>
+</resources>

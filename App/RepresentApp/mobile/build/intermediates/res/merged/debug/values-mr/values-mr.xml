@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dgts__confirmation_edit_hint">आम्ही आपल्याला पाठवलेला 6-अंकी कोड नोंदवा</string>
+    <string name="dgts__resend_confirmation_button_code">कोड पुन्हा पाठवा</string>
+    <string name="dgts__resend_confirmation_text">पुष्टीकरण कोड पुन्हा पाठवा</string>
+    <string name="tw__pause">पॉज</string>
+    <string name="tw__play">प्ले</string>
+    <string name="tw__replay">रिप्ले</string>
+    <string name="tw__share_email_desc">%1$s यांना आपले ट्विटर खाते \@%2$s शी निगडीत ई-मेल पत्ता घेण्याची परवानगी द्या जेणेकरुन %1$s आपल्या गोपनीयता धोरणानुसार त्याचा वापर करु शकतील. उदाहरणार्थ, %1$s आपल्याला त्या पत्त्यावर अपडेट्स आणि अन्य माहिती पाठवू शकतील.</string>
+</resources>

@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1 Std.</item>
+        <item quantity="other">%d Std.</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1 Min.</item>
+        <item quantity="other">%d Min.</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1 Sek.</item>
+        <item quantity="other">%d Sek.</item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s: %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s: %3$s"</string>
@@ -48,19 +60,63 @@
     <string msgid="311697239335516384" name="common_open_on_phone">"Auf Smartphone öffnen"</string>
     <string msgid="3156914698180786012" name="common_signin_button_text">"Anmelden"</string>
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Über Google anmelden"</string>
-    <string msgid="8327680881775995150" name="mr_media_route_button_content_description">"Übertragen"</string>
-    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Geräte werden gesucht…"</string>
-    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Mit Gerät verbinden"</string>
-    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Verbindung aufheben"</string>
-    <string msgid="3641544772007543920" name="mr_media_route_controller_no_info_available">"Keine Informationen verfügbar"</string>
-    <string msgid="8315773974194466049" name="mr_media_route_controller_pause">"Pause"</string>
-    <string msgid="5214423499524760404" name="mr_media_route_controller_play">"Wiedergabe"</string>
-    <string msgid="379358765881274425" name="mr_media_route_controller_settings_description">"Routingeinstellungen"</string>
-    <string msgid="5398645111664294430" name="mr_media_route_controller_stop">"Übertragung stoppen"</string>
-    <string msgid="5441529851481176817" name="mr_system_route_name">"System"</string>
-    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Geräte"</string>
+    <string name="dgts__call_me">Ruf mich an</string>
+    <string name="dgts__calling">Anruf…</string>
+    <string name="dgts__confirmation_code">Bestätigungscode</string>
+    <string name="dgts__confirmation_edit_hint">Gib den 6-stelligen Code ein, den wir Dir gesendet haben</string>
+    <string name="dgts__confirmation_error">Deine Telefonnummer konnte nicht bestätigt werden</string>
+    <string name="dgts__confirmation_error_alternative">Leider haben wir Schwierigkeiten, Dir einen Bestätigungscode zu senden.</string>
+    <string name="dgts__confirmation_expired">Dieser Code ist abgelaufen. Lass Dir einen neuen Bestätigungscode senden.</string>
+    <string name="dgts__continue">Weiter</string>
+    <string name="dgts__digits_logo_desc">Digits Logo-Symbol</string>
+    <string name="dgts__digits_logo_name_desc">Digits Logo-Name</string>
+    <string name="dgts__dismiss">Verwerfen</string>
+    <string name="dgts__done">Fertig</string>
+    <string name="dgts__email_request_edit_hint">E-Mail Adresse</string>
+    <string name="dgts__email_request_title">E-Mail Adresse eingeben</string>
+    <string name="dgts__find_your_friends">Freunde suchen</string>
+    <string name="dgts__image_header_description">Image-Header für Anmeldung</string>
+    <string name="dgts__invalid_email">Ungültige E-Mail Adresse. Erneut versuchen</string>
+    <string name="dgts__login_digits_text">Meine Telefonnummer verwenden</string>
+    <string name="dgts__network_error">Prüfe bitte Dein Netzwerk und versuche es erneut.</string>
+    <string name="dgts__not_now">Nicht jetzt</string>
+    <string name="dgts__okay">Okay</string>
+    <string name="dgts__phone_number_edit_hint">Deine Nummer</string>
+    <string name="dgts__phone_number_text">Deine Telefonnummer eingeben</string>
+    <string name="dgts__pin_code_verification_title">2-Schritt-Bestätigungscode eingeben</string>
+    <string name="dgts__resend_confirmation_button_code">Code erneut senden</string>
+    <string name="dgts__resend_confirmation_text">Bestätigungscode erneut senden</string>
+    <string name="dgts__sending">Sendet…</string>
+    <string name="dgts__success_desc">Erfolgssymbol</string>
+    <string name="dgts__try_again">Erneut versuchen</string>
+    <string name="dgts__try_again_confirmation">Prüfe bitte Deinen Code und versuche es erneut.</string>
+    <string name="dgts__try_again_email">Prüfe bitte Deine E-Mail Adresse und versuche es erneut</string>
+    <string name="dgts__try_again_phone_number">Prüfe bitte Deine Nummer und versuche es erneut.</string>
+    <string name="dgts__try_another_phone">Probiere eine andere Telefonnummer</string>
+    <string name="dgts__unsupported_operator_error">Es konnte keine SMS Nachricht an diese Nummer gesendet werden.</string>
+    <string name="dgts__upload_contacts">Mit Digits by Twitter können wir mehrere Deiner Freunde finden, die diese App verwenden. Wenn Du auf \"OK\" tippst, laden wir Dein Adressuch in Digits by Twitter hoch und helfen dabei, Dir bekannte Nutzer von %1$s zu finden sowie anderen Nutzern von %1$s, Dich zu finden.</string>
+    <string name="dgts__verification_code">Verifizierungscode</string>
+    <string name="dgts_pin_code_terms">Du hast zuvor einen 2-Schritte-Verifizierungscode auf digits.com eingestellt</string>
     <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Suche zurücksetzen"</string>
     <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Suche"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
-    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Mit Google einkaufen"</string>
+    <string name="tw__allow_btn_txt">Erlauben</string>
+    <string name="tw__like_tweet">Tweet gefällt mir</string>
+    <string name="tw__liked_tweet">Gefällt mir nicht mehr</string>
+    <string name="tw__loading_tweet">Tweet wird geladen</string>
+    <string name="tw__login_btn_txt">Mit Twitter anmelden</string>
+    <string name="tw__not_now_btn_txt">Nicht jetzt</string>
+    <string name="tw__pause">Pause</string>
+    <string name="tw__play">Abspielen</string>
+    <string name="tw__relative_date_format_long">d.M.y</string>
+    <string name="tw__relative_date_format_short">d. MMM</string>
+    <string name="tw__replay">Erneut abspielen</string>
+    <string name="tw__retweeted_by_format">Retweetet von %1$s</string>
+    <string name="tw__share_content_format">Sieh Dir den Tweet von \@%1$s an: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_email_desc">Erlaube %1$s  Zugriff auf die mit Deinem Twitter Account verknüpfte E-Mail Adresse \@%2$s, damit %1$s sie den Datenschutzrichtlinien entsprechend nutzen kann. Zum \
+Beispiel könnte %1$s Dir Updates und andere Informationen an diese Adresse senden.</string>
+    <string name="tw__share_email_title">Teile Deine E-Mail Adresse</string>
+    <string name="tw__share_subject_format">Tweet von %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">Tweet teilen</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
 </resources>

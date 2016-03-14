@@ -919,217 +919,8 @@
                     "startLine": 50,
                     "startColumn": 4,
                     "startOffset": 6829,
-                    "endColumn": 104,
-                    "endOffset": 6929
-                },
-                "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-ca/values-ca.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 278,
-                        "endColumn": 104,
-                        "endOffset": 378
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 51,
-                    "startColumn": 4,
-                    "startOffset": 6934,
-                    "endColumn": 120,
-                    "endOffset": 7050
-                },
-                "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-ca/values-ca.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 383,
-                        "endColumn": 120,
-                        "endOffset": 499
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 52,
-                    "startColumn": 4,
-                    "startOffset": 7055,
-                    "endColumn": 109,
-                    "endOffset": 7160
-                },
-                "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-ca/values-ca.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 504,
-                        "endColumn": 109,
-                        "endOffset": 609
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 53,
-                    "startColumn": 4,
-                    "startOffset": 7165,
-                    "endColumn": 105,
-                    "endOffset": 7266
-                },
-                "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-ca/values-ca.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 614,
-                        "endColumn": 105,
-                        "endOffset": 715
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 54,
-                    "startColumn": 4,
-                    "startOffset": 7271,
-                    "endColumn": 132,
-                    "endOffset": 7399
-                },
-                "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-ca/values-ca.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 720,
-                        "endColumn": 132,
-                        "endOffset": 848
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 55,
-                    "startColumn": 4,
-                    "startOffset": 7404,
-                    "endColumn": 103,
-                    "endOffset": 7503
-                },
-                "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-ca/values-ca.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 853,
-                        "endColumn": 103,
-                        "endOffset": 952
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 56,
-                    "startColumn": 4,
-                    "startOffset": 7508,
-                    "endColumn": 99,
-                    "endOffset": 7603
-                },
-                "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-ca/values-ca.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 957,
-                        "endColumn": 99,
-                        "endOffset": 1052
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 57,
-                    "startColumn": 4,
-                    "startOffset": 7608,
-                    "endColumn": 127,
-                    "endOffset": 7731
-                },
-                "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-ca/values-ca.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1057,
-                        "endColumn": 127,
-                        "endOffset": 1180
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 58,
-                    "startColumn": 4,
-                    "startOffset": 7736,
-                    "endColumn": 105,
-                    "endOffset": 7837
-                },
-                "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-ca/values-ca.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1185,
-                        "endColumn": 105,
-                        "endOffset": 1286
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 59,
-                    "startColumn": 4,
-                    "startOffset": 7842,
-                    "endColumn": 86,
-                    "endOffset": 7924
-                },
-                "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-ca/values-ca.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1291,
-                        "endColumn": 86,
-                        "endOffset": 1373
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 60,
-                    "startColumn": 4,
-                    "startOffset": 7929,
-                    "endColumn": 97,
-                    "endOffset": 8022
-                },
-                "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-ca/values-ca.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1378,
-                        "endColumn": 97,
-                        "endOffset": 1471
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 61,
-                    "startColumn": 4,
-                    "startOffset": 8027,
                     "endColumn": 106,
-                    "endOffset": 8129
+                    "endOffset": 6931
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/values-ca/location_strings.xml",
@@ -1144,11 +935,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 8134,
+                    "startOffset": 6936,
                     "endColumn": 94,
-                    "endOffset": 8224
+                    "endOffset": 7026
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/values-ca/location_strings.xml",
@@ -1163,11 +954,11 @@
             },
             {
                 "to": {
-                    "startLine": 63,
+                    "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 8229,
+                    "startOffset": 7031,
                     "endColumn": 100,
-                    "endOffset": 8325
+                    "endOffset": 7127
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ca/values-ca.xml",
@@ -1177,25 +968,6 @@
                         "startOffset": 2218,
                         "endColumn": 100,
                         "endOffset": 2314
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 64,
-                    "startColumn": 4,
-                    "startOffset": 8330,
-                    "endColumn": 106,
-                    "endOffset": 8432
-                },
-                "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/res/values-ca/wallet_strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 230,
-                        "endColumn": 106,
-                        "endOffset": 332
                     }
                 }
             }

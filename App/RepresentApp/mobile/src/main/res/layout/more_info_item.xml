@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="90dp"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/info_item_background"
+        android:background="@drawable/info_shape" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="askdlkf"
+        android:id="@+id/more_info_text"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:textSize="15sp"
+        android:textColor="@color/primary_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/more_info_text"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_alignParentBottom="true"
+        android:text="25 SEP"
+        android:textSize="12sp"
+        android:visibility="gone"
+        android:id="@+id/more_info_subtitle"
+        android:textColor="@color/secondary_text"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/category_text_section"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        >
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/category_text"
+            android:layout_marginEnd="25dp"
+            android:background="@color/icons" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/category_text"
+            android:text="@string/senators"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/icons"
+            android:textStyle="bold"
+            android:textAllCaps="true"/>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/category_text"
+            android:layout_marginStart="25dp"
+            android:background="@color/icons" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

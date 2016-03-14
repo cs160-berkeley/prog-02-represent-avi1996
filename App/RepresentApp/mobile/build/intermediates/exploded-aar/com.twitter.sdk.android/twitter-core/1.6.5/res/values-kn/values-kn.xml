@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/android/workspace/jenkins/workspace/fabric-android-deploy-to-staging/sdk/twitter/twitter-core/src/main/res/values-kn/strings.xml -->
+    <eat-comment/>
+    <string name="tw__share_email_desc">ನಿಮ್ಮ Twitter ಖಾತೆಯ ಜೊತೆಗೆ ಸಂಯೋಜಿತವಾಗಿರುವ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ಪ್ರವೇಶಿಸಲು %1$s ಗೆ ಅನುಮತಿಸಿ \@%2$s ಇದರಿಂದ %1$s ಅದನ್ನು ಅದರ ಗೌಪ್ಯತಾ ನೀತಿ ಪ್ರಕಾರ ಬಳಸಬಹುದು. ಉದಾಹರಣೆಗೆ, %1$s ನಿಮಗೆ ನವೀಕರಣಗಳನ್ನು ಮತ್ತು ಇತರ ಮಾಹಿತಿಯನ್ನು ಆ ವಿಳಾಸದಲ್ಲಿ ಕಳುಹಿಸಬಹುದು.</string>
+</resources>

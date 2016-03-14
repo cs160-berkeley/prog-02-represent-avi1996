@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/res/merged/debug/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.5/res/values-xxhdpi/values-xxhdpi.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 237,
+                        "endColumn": 54,
+                        "endOffset": 287
+                    }
+                }
+            }
+        ]
+    }
+]

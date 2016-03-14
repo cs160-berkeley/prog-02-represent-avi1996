@@ -1,43 +1,38 @@
 package edu.berkeley.cs160.represent.represent;
 
 import android.app.Activity;
+import android.app.Fragment;
+import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
+import android.support.wearable.view.CardFragment;
+import android.support.wearable.view.FragmentGridPagerAdapter;
+import android.support.wearable.view.GridViewPager;
 import android.util.Log;
-import android.view.DragEvent;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 
-import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResultCallback;
-import com.google.android.gms.wearable.Asset;
-import com.google.android.gms.wearable.DataApi;
-import com.google.android.gms.wearable.DataEvent;
-import com.google.android.gms.wearable.DataEventBuffer;
-import com.google.android.gms.wearable.DataMapItem;
 import com.google.android.gms.wearable.Node;
 import com.google.android.gms.wearable.NodeApi;
 import com.google.android.gms.wearable.Wearable;
 
-import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-public class RepresentativesActivity extends Activity implements GoogleApiClient.ConnectionCallbacks, DataApi.DataListener, View.OnClickListener, SensorEventListener {
+public class RepresentativesActivity extends Activity implements GoogleApiClient.ConnectionCallbacks, View.OnClickListener, SensorEventListener {
+
 
     private static final String TAG = "RepresentativesActivity";
 //    private ImageView mRepImage;
@@ -50,112 +45,65 @@ public class RepresentativesActivity extends Activity implements GoogleApiClient
 
     private float swipeLeft = 0;
 
-    private static final float SHAKE_THRESHOLD = 1.5f;
+    private static final float SHAKE_THRESHOLD = 1.2f;
     private static final int SHAKE_WAIT_TIME_MS = 1000;
 
     private SensorManager mSensorManager;
     private Sensor mSensor;
     private long mShakeTime = 0;
 
+    private String county;
+    private String barack;
+    private String mitt;
+    private int repCount;
+
+    public static final String PARTY_DEMOCRAT_STRING = "Democrat";
+    public static final String PARTY_REPUBLICAN_STRING = "Republican";
+    public static final String PARTY_INDEPENDENT_STRING = "Independent";
+
+    private ArrayList<String> mReps;
+
+    GridViewPager pager;
     String location;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_representatives);
-//        final BoxInsetLayout stub = (BoxInsetLayout) findViewById(R.id.card);
-//        stub.setOnLayoutInflatedListener(new WatchViewStub.OnLayoutInflatedListener() {
-//            @Override
-//            public void onLayoutInflated(WatchViewStub stub) {
-//                mTextView = (TextView) stub.findViewById(R.id.text);
-//            }
-//        });
+        pager = (GridViewPager) findViewById(R.id.pager);
 
         mGoogleApiClient = new GoogleApiClient.Builder( this )
                 .addApiIfAvailable(Wearable.API)
                 .addConnectionCallbacks(this)
                 .build();
-        //and actually connect it
         mGoogleApiClient.connect();
 
-//        mRepSection = (RelativeLayout) findViewById(R.id.rep_section);
-//        mRepImage = (ImageView) findViewById(R.id.rep_image);
-//        mRepName = (TextView) findViewById(R.id.rep_name);
-//
-//
-//        ImageUtils.loadImage(this, R.drawable.david_perdue, mRepImage);
-//        mRepName.setText("Senator David Perdue");
+        Bundle data = getIntent().getBundleExtra("data");
+        if (data != null) {
+            repCount = Integer.parseInt(data.getString("rep_count"));
+            county = data.getString("county_name");
+            barack = data.getString("barack");
+            mitt = data.getString("mitt");
 
-//        mRepSection.setOnClickListener(this);
+            mReps = new ArrayList<>();
+            for (Integer i = 0; i < repCount; i++) {
+                mReps.add(data.getString(i.toString()));
+                Log.d(TAG, "REP " + mReps.get(i));
+            }
 
-        mCardScrollView = (ListView) findViewById(R.id.card);
+            pager.setAdapter(new RepCardAdapter(this, getFragmentManager()));
+        }
 
-        location = getIntent().getStringExtra("location");
-
-        RepCardAdapter adapter = new RepCardAdapter(this, R.layout.rep_card);
-        adapter.add("");
-        adapter.add("");
-        adapter.add("");
-
-        mCardScrollView.setAdapter(adapter);
+        pager.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                transitionToVoteActivity();
+                return false;
+            }
+        });
 
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         mSensorManager.registerListener(this, mSensor, SensorManager.SENSOR_DELAY_NORMAL);
-
-//        Bitmap image = getIntent().getParcelableExtra("rep_image");
-//        String name = getIntent().getStringExtra("rep_name");
-//
-//        if (image != null && name != null) {
-//            ImageUtils.loadImageFromBitmap(this, image, mRepImage);
-//            mRepName.setText(name);
-//        }
-
-//        Intent sendIntent = new Intent(getBaseContext(), WatchListenerService.class);
-//        startService(sendIntent);
-
-    }
-
-    @Override
-    public void onDataChanged(DataEventBuffer dataEvents) {
-        Log.d(TAG, "onDataChanged");
-        for (DataEvent event : dataEvents) {
-            if (event.getType() == DataEvent.TYPE_CHANGED &&
-                    event.getDataItem().getUri().getPath().equals("/rep")) {
-                DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
-                Asset profileAsset = dataMapItem.getDataMap().getAsset("profileImage");
-                Bitmap bitmap = loadBitmapFromAsset(profileAsset);
-                String repName = dataMapItem.getDataMap().getString("repName");
-                Intent intent = new Intent(this, RepresentativesActivity.class );
-                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                Log.d(TAG, "repName " + repName);
-                intent.putExtra("rep_name", repName);
-                intent.putExtra("rep_image", bitmap);
-                startActivity(intent);
-                // Do something with the bitmap
-            }
-        }
-    }
-
-    public Bitmap loadBitmapFromAsset(Asset asset) {
-        if (asset == null) {
-            throw new IllegalArgumentException("Asset must be non-null");
-        }
-        ConnectionResult result =
-                mGoogleApiClient.blockingConnect(1000, TimeUnit.MILLISECONDS);
-        if (!result.isSuccess()) {
-            return null;
-        }
-        // convert asset into a file descriptor and block until it's ready
-        InputStream assetInputStream = Wearable.DataApi.getFdForAsset(
-                mGoogleApiClient, asset).await().getInputStream();
-        mGoogleApiClient.disconnect();
-
-        if (assetInputStream == null) {
-            Log.w(TAG, "Requested an unknown Asset.");
-            return null;
-        }
-        // decode the stream into a bitmap
-        return BitmapFactory.decodeStream(assetInputStream);
     }
 
     @Override
@@ -171,6 +119,7 @@ public class RepresentativesActivity extends Activity implements GoogleApiClient
                 }
             }
         });
+
     }
 
     @Override
@@ -181,7 +130,6 @@ public class RepresentativesActivity extends Activity implements GoogleApiClient
     @Override
     public void onDestroy() {
         super.onDestroy();
-        Wearable.DataApi.removeListener(mGoogleApiClient, this);
         mGoogleApiClient.disconnect();
     }
 
@@ -191,15 +139,15 @@ public class RepresentativesActivity extends Activity implements GoogleApiClient
         switch (v.getId()) {
             case R.id.rep_section:
                 Log.d(TAG, "Rep Section CLicked");
-                sendMessage("/rep", "David Perdue");
                 break;
         }
     }
 
-    private void sendMessage(final String path, final String text ) {
-
+    private void sendMessage(final String path, String text) {
+        if (text == null) {
+            text = "";
+        }
         for (Node node : nodes) {
-            Log.d(TAG, "Sending message: " + text);
             Wearable.MessageApi.sendMessage(
                     mGoogleApiClient, node.getId(), path, text.getBytes());
         }
@@ -213,88 +161,77 @@ public class RepresentativesActivity extends Activity implements GoogleApiClient
         mSensorManager.unregisterListener(this);
     }
 
-    private class RepCardAdapter extends ArrayAdapter<String> implements View.OnClickListener {
 
-        public RepCardAdapter(Context context, int resource) {
-            super(context, resource);
+    private class RepCardAdapter extends FragmentGridPagerAdapter {
+
+        private final Context mContext;
+        private ArrayList<String> mRowsList;
+        private HashMap<String, String> mRows;
+        private ArrayList<ColorDrawable> mColors;
+
+        private int currentRow;
+
+
+        public RepCardAdapter(Context context, FragmentManager fm) {
+            super(fm);
+
+            mContext = context;
+
+            mRowsList = new ArrayList<>();
+            mColors = new ArrayList<>();
+
+            for (String s: mReps) {
+                String[] terms = s.split(" ");
+                String name = terms[1] + " " + terms[2] + " " + terms[3];
+                mRowsList.add(name);
+
+                String party = terms[0];
+
+                if (party.equals(PARTY_DEMOCRAT_STRING)) {
+                    mColors.add(new ColorDrawable(ContextCompat.getColor(mContext, R.color.democrat)));
+                } else if (party.equals(PARTY_REPUBLICAN_STRING)) {
+                    mColors.add(new ColorDrawable(ContextCompat.getColor(mContext, R.color.republican)));
+                } else if (party.equals(PARTY_INDEPENDENT_STRING)) {
+                    mColors.add(new ColorDrawable(ContextCompat.getColor(mContext, R.color.independent)));
+                }
+            }
+        }
+
+
+        @Override
+        public Fragment getFragment(int i, int i1) {
+            return cardFragment(i);
+        }
+
+        private Fragment cardFragment(int rowNum) {
+            CardFragment fragment = CardFragment.create("", mRowsList.get(rowNum));
+            // Add some extra bottom margin to leave room for the page indicator
+            return fragment;
         }
 
         @Override
-        public View getView(int position, View convertView, ViewGroup parent) {
-
-            View row = convertView;
-            if (row == null) {
-                LayoutInflater inflater = (LayoutInflater) this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                row = inflater.inflate(R.layout.rep_card, parent, false);
-            }
-
-            ImageView mRepImage = (ImageView) row.findViewById(R.id.rep_image);
-            TextView mRepName = (TextView) row.findViewById(R.id.rep_name);
-
-            if (position == 0) {
-                ImageUtils.loadImage(getContext(), R.drawable.johnny_isakson, mRepImage);
-                mRepName.setText("Senator Johnny Isakson");
-                row.setOnClickListener(null);
-            } else if (position == 1) {
-
-                ImageUtils.loadImage(getContext(), R.drawable.david_perdue, mRepImage);
-                mRepName.setText("Senator David Perdue");
-                row.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Log.d(TAG, "REP CARD ON CLICK");
-                        sendMessage("/rep", "David Perdue");
-                    }
-                });
-
-            } else if (position == 2) {
-
-                ImageUtils.loadImage(getContext(), R.drawable.johnny_isakson, mRepImage);
-                mRepName.setText("Representative Tom Price");
-                row.setOnClickListener(null);
-            }
-            row.setOnDragListener(new View.OnDragListener() {
-                @Override
-                public boolean onDrag(View v, DragEvent event) {
-                    Log.d(TAG, ((Float) swipeLeft).toString());
-                    if (event.getAction() == DragEvent.ACTION_DRAG_STARTED) {
-                        swipeLeft = event.getX();
-                    } else if (event.getAction() == DragEvent.ACTION_DRAG_ENDED) {
-                        if (swipeLeft - event.getX() > 0) {
-                            Log.d(TAG, "SWIPED LEFT");
-                            swipeLeft = 0;
-                        }
-                    }
-//                event.get
-                    return false;
-                }
-            });
-            row.setOnLongClickListener(new View.OnLongClickListener() {
-                @Override
-                public boolean onLongClick(View v) {
-                    Log.d(TAG, "LONG CLICKED");
-                    transitionToVoteActivity();
-                    return false;
-                }
-            });
-            return row;
+        public int getRowCount() {
+            return mReps.size();
         }
 
         @Override
-        public void onClick(View v) {
-            switch (v.getId()) {
-                case R.layout.rep_card:
-                    Log.d(TAG, "REP CARD ON CLICK");
-                    sendMessage("/rep", "David Perdue");
-                    break;
-            }
+        public int getColumnCount(int i) {
+            return 1;
+        }
+
+
+        @Override
+        public Drawable getBackgroundForRow(final int row) {
+            return mColors.get(row);
         }
 
     }
 
     private void transitionToVoteActivity() {
         Intent i = new Intent(this, VoteActivity.class);
-        i.putExtra("location", location);
+        i.putExtra("county_name", county);
+        i.putExtra("obama", barack);
+        i.putExtra("mitt", mitt);
         startActivity(i);
         finish();
     }
@@ -336,18 +273,14 @@ public class RepresentativesActivity extends Activity implements GoogleApiClient
             // Change background color if gForce exceeds threshold;
             // otherwise, reset the color
             if(gForce > SHAKE_THRESHOLD) {
-                Log.d(TAG, "REALLY SHOOK THAT BITCH");
-                sendMessage("/new_location", randomLocationGenerator());
+                Log.d(TAG, "WATCH SHAKEN");
+                sendMessage("/random_location", null);
             }
             else {
-//                Log.d(TAG, "KINDA SHOOK THAT BITCH");
             }
         }
 
     }
 
-    private String randomLocationGenerator() {
-        return "12345";
-    }
 
 }

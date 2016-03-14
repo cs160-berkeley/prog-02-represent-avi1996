@@ -970,25 +970,6 @@
                         "endOffset": 2322
                     }
                 }
-            },
-            {
-                "to": {
-                    "startLine": 53,
-                    "startColumn": 4,
-                    "startOffset": 7101,
-                    "endColumn": 109,
-                    "endOffset": 7206
-                },
-                "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/res/values-pt-rBR/wallet_strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 230,
-                        "endColumn": 109,
-                        "endOffset": 335
-                    }
-                }
             }
         ]
     }

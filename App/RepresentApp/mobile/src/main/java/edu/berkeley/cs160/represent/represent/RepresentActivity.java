@@ -7,6 +7,7 @@ import android.util.Log;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.wearable.Wearable;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
@@ -18,7 +19,6 @@ public class RepresentActivity extends AppCompatActivity implements GoogleApiCli
 
     private static final String TAG = "RepresentActivity";
     GoogleApiClient mGoogleApiClient;
-
 
     @Override
     protected void attachBaseContext(Context newBase) {
@@ -32,10 +32,11 @@ public class RepresentActivity extends AppCompatActivity implements GoogleApiCli
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .addConnectionCallbacks(this)
                 .addOnConnectionFailedListener(this)
-                        // Request access only to the Wearable API
                 .addApiIfAvailable(Wearable.API)
+                .addApi(LocationServices.API)
                 .build();
 
+        mGoogleApiClient.connect();
     }
 
     @Override
@@ -59,4 +60,12 @@ public class RepresentActivity extends AppCompatActivity implements GoogleApiCli
     public void onConnectionFailed(ConnectionResult result) {
         Log.d(TAG, "onConnectionFailed: " + result);
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        mGoogleApiClient.disconnect();
+    }
+
 }

@@ -7,8 +7,71 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 105,
+                    "endLine": 5,
+                    "endColumn": 14,
+                    "endOffset": 241
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 230,
+                        "endLine": 7,
+                        "endColumn": 14,
+                        "endOffset": 366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 246,
+                    "endLine": 9,
+                    "endColumn": 14,
+                    "endOffset": 381
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 371,
+                        "endLine": 11,
+                        "endColumn": 14,
+                        "endOffset": 506
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 386,
+                    "endLine": 13,
+                    "endColumn": 14,
+                    "endOffset": 524
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 511,
+                        "endLine": 15,
+                        "endColumn": 14,
+                        "endOffset": 649
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 529,
                     "endColumn": 103,
-                    "endOffset": 204
+                    "endOffset": 628
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -23,11 +86,11 @@
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 209,
+                    "startOffset": 633,
                     "endColumn": 109,
-                    "endOffset": 314
+                    "endOffset": 738
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -42,11 +105,11 @@
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 319,
+                    "startOffset": 743,
                     "endColumn": 125,
-                    "endOffset": 440
+                    "endOffset": 864
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -61,11 +124,11 @@
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 445,
+                    "startOffset": 869,
                     "endColumn": 98,
-                    "endOffset": 539
+                    "endOffset": 963
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -80,11 +143,11 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 544,
+                    "startOffset": 968,
                     "endColumn": 107,
-                    "endOffset": 647
+                    "endOffset": 1071
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -99,11 +162,11 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 652,
+                    "startOffset": 1076,
                     "endColumn": 83,
-                    "endOffset": 731
+                    "endOffset": 1155
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -118,11 +181,11 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 736,
+                    "startOffset": 1160,
                     "endColumn": 99,
-                    "endOffset": 831
+                    "endOffset": 1255
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -137,11 +200,11 @@
             },
             {
                 "to": {
-                    "startLine": 9,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 836,
+                    "startOffset": 1260,
                     "endColumn": 113,
-                    "endOffset": 945
+                    "endOffset": 1369
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -156,11 +219,11 @@
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 950,
+                    "startOffset": 1374,
                     "endColumn": 77,
-                    "endOffset": 1023
+                    "endOffset": 1447
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -175,11 +238,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1028,
+                    "startOffset": 1452,
                     "endColumn": 77,
-                    "endOffset": 1101
+                    "endOffset": 1525
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -194,11 +257,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1106,
+                    "startOffset": 1530,
                     "endColumn": 78,
-                    "endOffset": 1180
+                    "endOffset": 1604
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -213,11 +276,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1185,
+                    "startOffset": 1609,
                     "endColumn": 101,
-                    "endOffset": 1282
+                    "endOffset": 1706
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -232,11 +295,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1287,
+                    "startOffset": 1711,
                     "endColumn": 103,
-                    "endOffset": 1386
+                    "endOffset": 1810
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -251,11 +314,11 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 1391,
+                    "startOffset": 1815,
                     "endColumn": 95,
-                    "endOffset": 1482
+                    "endOffset": 1906
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -270,11 +333,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 1487,
+                    "startOffset": 1911,
                     "endColumn": 102,
-                    "endOffset": 1585
+                    "endOffset": 2009
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -289,11 +352,11 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 1590,
+                    "startOffset": 2014,
                     "endColumn": 100,
-                    "endOffset": 1686
+                    "endOffset": 2110
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -308,11 +371,11 @@
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 1691,
+                    "startOffset": 2115,
                     "endColumn": 99,
-                    "endOffset": 1786
+                    "endOffset": 2210
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -327,11 +390,11 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 1791,
+                    "startOffset": 2215,
                     "endColumn": 115,
-                    "endOffset": 1902
+                    "endOffset": 2326
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -346,11 +409,11 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 1907,
+                    "startOffset": 2331,
                     "endColumn": 95,
-                    "endOffset": 1998
+                    "endOffset": 2422
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -365,11 +428,11 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 2003,
+                    "startOffset": 2427,
                     "endColumn": 237,
-                    "endOffset": 2236
+                    "endOffset": 2660
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -384,11 +447,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 2241,
+                    "startOffset": 2665,
                     "endColumn": 127,
-                    "endOffset": 2364
+                    "endOffset": 2788
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -403,11 +466,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 2369,
+                    "startOffset": 2793,
                     "endColumn": 185,
-                    "endOffset": 2550
+                    "endOffset": 2974
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -422,11 +485,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 2555,
+                    "startOffset": 2979,
                     "endColumn": 126,
-                    "endOffset": 2677
+                    "endOffset": 3101
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -441,11 +504,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 2682,
+                    "startOffset": 3106,
                     "endColumn": 127,
-                    "endOffset": 2805
+                    "endOffset": 3229
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -460,11 +523,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 2810,
+                    "startOffset": 3234,
                     "endColumn": 207,
-                    "endOffset": 3013
+                    "endOffset": 3437
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -479,11 +542,11 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 3018,
+                    "startOffset": 3442,
                     "endColumn": 208,
-                    "endOffset": 3222
+                    "endOffset": 3646
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -498,11 +561,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 3227,
+                    "startOffset": 3651,
                     "endColumn": 126,
-                    "endOffset": 3349
+                    "endOffset": 3773
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -517,11 +580,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 3354,
+                    "startOffset": 3778,
                     "endColumn": 153,
-                    "endOffset": 3503
+                    "endOffset": 3927
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -536,11 +599,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 3508,
+                    "startOffset": 3932,
                     "endColumn": 118,
-                    "endOffset": 3622
+                    "endOffset": 4046
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -555,11 +618,11 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 3627,
+                    "startOffset": 4051,
                     "endColumn": 155,
-                    "endOffset": 3778
+                    "endOffset": 4202
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -574,11 +637,11 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 3783,
+                    "startOffset": 4207,
                     "endColumn": 115,
-                    "endOffset": 3894
+                    "endOffset": 4318
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -593,11 +656,11 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 3899,
+                    "startOffset": 4323,
                     "endColumn": 132,
-                    "endOffset": 4027
+                    "endOffset": 4451
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -612,11 +675,11 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 4032,
+                    "startOffset": 4456,
                     "endColumn": 150,
-                    "endOffset": 4178
+                    "endOffset": 4602
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -631,11 +694,11 @@
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 4183,
+                    "startOffset": 4607,
                     "endColumn": 123,
-                    "endOffset": 4302
+                    "endOffset": 4726
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -650,11 +713,11 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 4307,
+                    "startOffset": 4731,
                     "endColumn": 158,
-                    "endOffset": 4461
+                    "endOffset": 4885
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -669,11 +732,11 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 4466,
+                    "startOffset": 4890,
                     "endColumn": 119,
-                    "endOffset": 4581
+                    "endOffset": 5005
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -688,11 +751,11 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 4586,
+                    "startOffset": 5010,
                     "endColumn": 216,
-                    "endOffset": 4798
+                    "endOffset": 5222
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/res/values-iw/common_strings.xml",
@@ -707,11 +770,11 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 4803,
+                    "startOffset": 5227,
                     "endColumn": 228,
-                    "endOffset": 5027
+                    "endOffset": 5451
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -726,11 +789,11 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 5032,
+                    "startOffset": 5456,
                     "endColumn": 122,
-                    "endOffset": 5150
+                    "endOffset": 5574
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -745,11 +808,11 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 5155,
+                    "startOffset": 5579,
                     "endColumn": 104,
-                    "endOffset": 5255
+                    "endOffset": 5679
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -764,11 +827,11 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 5260,
+                    "startOffset": 5684,
                     "endColumn": 185,
-                    "endOffset": 5441
+                    "endOffset": 5865
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -783,11 +846,11 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 5446,
+                    "startOffset": 5870,
                     "endColumn": 124,
-                    "endOffset": 5566
+                    "endOffset": 5990
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -802,11 +865,11 @@
             },
             {
                 "to": {
-                    "startLine": 44,
+                    "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 5571,
+                    "startOffset": 5995,
                     "endColumn": 192,
-                    "endOffset": 5759
+                    "endOffset": 6183
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -821,11 +884,11 @@
             },
             {
                 "to": {
-                    "startLine": 45,
+                    "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 5764,
+                    "startOffset": 6188,
                     "endColumn": 129,
-                    "endOffset": 5889
+                    "endOffset": 6313
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -840,11 +903,11 @@
             },
             {
                 "to": {
-                    "startLine": 46,
+                    "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 5894,
+                    "startOffset": 6318,
                     "endColumn": 174,
-                    "endOffset": 6064
+                    "endOffset": 6488
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -859,11 +922,11 @@
             },
             {
                 "to": {
-                    "startLine": 47,
+                    "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 6069,
+                    "startOffset": 6493,
                     "endColumn": 88,
-                    "endOffset": 6153
+                    "endOffset": 6577
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -878,11 +941,11 @@
             },
             {
                 "to": {
-                    "startLine": 48,
+                    "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 6158,
+                    "startOffset": 6582,
                     "endColumn": 89,
-                    "endOffset": 6243
+                    "endOffset": 6667
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -897,11 +960,11 @@
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 6248,
+                    "startOffset": 6672,
                     "endColumn": 110,
-                    "endOffset": 6354
+                    "endOffset": 6778
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-iw/base_strings.xml",
@@ -916,220 +979,714 @@
             },
             {
                 "to": {
-                    "startLine": 50,
+                    "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 6359,
-                    "endColumn": 104,
-                    "endOffset": 6459
+                    "startOffset": 6783,
+                    "endColumn": 53,
+                    "endOffset": 6832
                 },
                 "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-iw/values-iw.xml",
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 278,
-                        "endColumn": 104,
-                        "endOffset": 378
+                        "startOffset": 227,
+                        "endColumn": 53,
+                        "endOffset": 276
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 51,
+                    "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 6464,
-                    "endColumn": 104,
-                    "endOffset": 6564
+                    "startOffset": 6837,
+                    "endColumn": 48,
+                    "endOffset": 6881
                 },
                 "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-iw/values-iw.xml",
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 383,
-                        "endColumn": 104,
-                        "endOffset": 483
+                        "startOffset": 281,
+                        "endColumn": 48,
+                        "endOffset": 325
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 52,
+                    "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 6569,
-                    "endColumn": 99,
-                    "endOffset": 6664
+                    "startOffset": 6886,
+                    "endColumn": 61,
+                    "endOffset": 6943
                 },
                 "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-iw/values-iw.xml",
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 488,
-                        "endColumn": 99,
-                        "endOffset": 583
+                        "startOffset": 330,
+                        "endColumn": 61,
+                        "endOffset": 387
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 53,
+                    "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 6669,
-                    "endColumn": 99,
-                    "endOffset": 6764
+                    "startOffset": 6948,
+                    "endColumn": 91,
+                    "endOffset": 7035
                 },
                 "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-iw/values-iw.xml",
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 588,
-                        "endColumn": 99,
-                        "endOffset": 683
+                        "startOffset": 392,
+                        "endColumn": 91,
+                        "endOffset": 479
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 54,
+                    "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 6769,
-                    "endColumn": 115,
-                    "endOffset": 6880
+                    "startOffset": 7040,
+                    "endColumn": 84,
+                    "endOffset": 7120
                 },
                 "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-iw/values-iw.xml",
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 688,
-                        "endColumn": 115,
-                        "endOffset": 799
+                        "startOffset": 484,
+                        "endColumn": 84,
+                        "endOffset": 564
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 55,
+                    "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 6885,
-                    "endColumn": 94,
-                    "endOffset": 6975
+                    "startOffset": 7125,
+                    "endColumn": 105,
+                    "endOffset": 7226
                 },
                 "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-iw/values-iw.xml",
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 804,
-                        "endColumn": 94,
-                        "endOffset": 894
+                        "startOffset": 569,
+                        "endColumn": 105,
+                        "endOffset": 670
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 56,
+                    "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 6980,
-                    "endColumn": 93,
-                    "endOffset": 7069
+                    "startOffset": 7231,
+                    "endColumn": 101,
+                    "endOffset": 7328
                 },
                 "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-iw/values-iw.xml",
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 899,
-                        "endColumn": 93,
-                        "endOffset": 988
+                        "startOffset": 675,
+                        "endColumn": 101,
+                        "endOffset": 772
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 57,
+                    "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 7074,
-                    "endColumn": 115,
-                    "endOffset": 7185
+                    "startOffset": 7333,
+                    "endColumn": 47,
+                    "endOffset": 7376
                 },
                 "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-iw/values-iw.xml",
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 993,
-                        "endColumn": 115,
-                        "endOffset": 1104
+                        "startOffset": 777,
+                        "endColumn": 47,
+                        "endOffset": 820
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 58,
+                    "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 7190,
-                    "endColumn": 99,
-                    "endOffset": 7285
+                    "startOffset": 7381,
+                    "endColumn": 65,
+                    "endOffset": 7442
                 },
                 "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-iw/values-iw.xml",
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1109,
-                        "endColumn": 99,
-                        "endOffset": 1204
+                        "startOffset": 825,
+                        "endColumn": 65,
+                        "endOffset": 886
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 59,
+                    "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 7290,
-                    "endColumn": 84,
-                    "endOffset": 7370
+                    "startOffset": 7447,
+                    "endColumn": 73,
+                    "endOffset": 7516
                 },
                 "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-iw/values-iw.xml",
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1209,
-                        "endColumn": 84,
-                        "endOffset": 1289
+                        "startOffset": 891,
+                        "endColumn": 73,
+                        "endOffset": 960
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 60,
+                    "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 7375,
-                    "endColumn": 93,
-                    "endOffset": 7464
+                    "startOffset": 7521,
+                    "endColumn": 47,
+                    "endOffset": 7564
                 },
                 "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-iw/values-iw.xml",
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1294,
-                        "endColumn": 93,
-                        "endOffset": 1383
+                        "startOffset": 965,
+                        "endColumn": 47,
+                        "endOffset": 1008
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 61,
+                    "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 7469,
+                    "startOffset": 7569,
+                    "endColumn": 43,
+                    "endOffset": 7608
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1013,
+                        "endColumn": 43,
+                        "endOffset": 1052
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 7613,
+                    "endColumn": 77,
+                    "endOffset": 7686
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1057,
+                        "endColumn": 77,
+                        "endOffset": 1130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 7691,
+                    "endColumn": 77,
+                    "endOffset": 7764
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1135,
+                        "endColumn": 77,
+                        "endOffset": 1208
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 7769,
+                    "endColumn": 69,
+                    "endOffset": 7834
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1213,
+                        "endColumn": 69,
+                        "endOffset": 1278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 7839,
+                    "endColumn": 80,
+                    "endOffset": 7915
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1283,
+                        "endColumn": 80,
+                        "endOffset": 1359
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 7920,
+                    "endColumn": 86,
+                    "endOffset": 8002
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1364,
+                        "endColumn": 86,
+                        "endOffset": 1446
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 8007,
+                    "endColumn": 74,
+                    "endOffset": 8077
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1451,
+                        "endColumn": 74,
+                        "endOffset": 1521
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 8082,
+                    "endColumn": 74,
+                    "endOffset": 8152
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1526,
+                        "endColumn": 74,
+                        "endOffset": 1596
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 8157,
+                    "endColumn": 50,
+                    "endOffset": 8203
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1601,
+                        "endColumn": 50,
+                        "endOffset": 1647
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 8208,
+                    "endColumn": 44,
+                    "endOffset": 8248
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1652,
+                        "endColumn": 44,
+                        "endOffset": 1692
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 8253,
+                    "endColumn": 66,
+                    "endOffset": 8315
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1697,
+                        "endColumn": 66,
+                        "endOffset": 1759
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 8320,
+                    "endColumn": 74,
+                    "endOffset": 8390
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1764,
+                        "endColumn": 74,
+                        "endOffset": 1834
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 8395,
+                    "endColumn": 86,
+                    "endOffset": 8477
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1839,
+                        "endColumn": 86,
+                        "endOffset": 1921
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 8482,
+                    "endColumn": 80,
+                    "endOffset": 8558
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1926,
+                        "endColumn": 80,
+                        "endOffset": 2002
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 8563,
+                    "endColumn": 77,
+                    "endOffset": 8636
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2007,
+                        "endColumn": 77,
+                        "endOffset": 2080
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 8641,
+                    "endColumn": 47,
+                    "endOffset": 8684
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 2085,
+                        "endColumn": 47,
+                        "endOffset": 2128
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 8689,
+                    "endColumn": 56,
+                    "endOffset": 8741
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 2133,
+                        "endColumn": 56,
+                        "endOffset": 2185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 8746,
+                    "endColumn": 51,
+                    "endOffset": 8793
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2190,
+                        "endColumn": 51,
+                        "endOffset": 2237
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 8798,
+                    "endColumn": 83,
+                    "endOffset": 8877
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 2242,
+                        "endColumn": 83,
+                        "endOffset": 2321
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 8882,
+                    "endColumn": 89,
+                    "endOffset": 8967
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2326,
+                        "endColumn": 89,
+                        "endOffset": 2411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 8972,
+                    "endColumn": 84,
+                    "endOffset": 9052
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2416,
+                        "endColumn": 84,
+                        "endOffset": 2496
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 9057,
+                    "endColumn": 70,
+                    "endOffset": 9123
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 2501,
+                        "endColumn": 70,
+                        "endOffset": 2567
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 9128,
+                    "endColumn": 94,
+                    "endOffset": 9218
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 2572,
+                        "endColumn": 94,
+                        "endOffset": 2662
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 9223,
+                    "endColumn": 295,
+                    "endOffset": 9514
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2667,
+                        "endColumn": 295,
+                        "endOffset": 2958
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 9519,
+                    "endColumn": 61,
+                    "endOffset": 9576
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2963,
+                        "endColumn": 61,
+                        "endOffset": 3020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 9581,
+                    "endColumn": 95,
+                    "endOffset": 9672
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 3025,
+                        "endColumn": 95,
+                        "endOffset": 3116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 9677,
                     "endColumn": 103,
-                    "endOffset": 7568
+                    "endOffset": 9776
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/values-iw/location_strings.xml",
@@ -1144,11 +1701,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 100,
                     "startColumn": 4,
-                    "startOffset": 7573,
+                    "startOffset": 9781,
                     "endColumn": 94,
-                    "endOffset": 7663
+                    "endOffset": 9871
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/values-iw/location_strings.xml",
@@ -1163,11 +1720,11 @@
             },
             {
                 "to": {
-                    "startLine": 63,
+                    "startLine": 101,
                     "startColumn": 4,
-                    "startOffset": 7668,
+                    "startOffset": 9876,
                     "endColumn": 102,
-                    "endOffset": 7766
+                    "endOffset": 9974
                 },
                 "from": {
                     "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-iw/values-iw.xml",
@@ -1182,20 +1739,343 @@
             },
             {
                 "to": {
-                    "startLine": 64,
+                    "startLine": 102,
                     "startColumn": 4,
-                    "startOffset": 7771,
-                    "endColumn": 105,
-                    "endOffset": 7872
+                    "startOffset": 9979,
+                    "endColumn": 49,
+                    "endOffset": 10024
                 },
                 "from": {
-                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/res/values-iw/wallet_strings.xml",
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.5/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 234,
+                        "endColumn": 49,
+                        "endOffset": 279
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 10029,
+                    "endColumn": 57,
+                    "endOffset": 10082
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 829,
+                        "endColumn": 57,
+                        "endOffset": 882
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 10087,
+                    "endColumn": 59,
+                    "endOffset": 10142
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 887,
+                        "endColumn": 59,
+                        "endOffset": 942
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 10147,
+                    "endColumn": 55,
+                    "endOffset": 10198
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 947,
+                        "endColumn": 55,
+                        "endOffset": 998
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 10203,
+                    "endColumn": 66,
+                    "endOffset": 10265
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.5/res/values-iw/values-iw.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 230,
-                        "endColumn": 105,
-                        "endOffset": 331
+                        "startOffset": 284,
+                        "endColumn": 66,
+                        "endOffset": 346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 10270,
+                    "endColumn": 56,
+                    "endOffset": 10322
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.5/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 351,
+                        "endColumn": 56,
+                        "endOffset": 403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 10327,
+                    "endColumn": 43,
+                    "endOffset": 10366
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1003,
+                        "endColumn": 43,
+                        "endOffset": 1042
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 10371,
+                    "endColumn": 41,
+                    "endOffset": 10408
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1047,
+                        "endColumn": 41,
+                        "endOffset": 1084
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 10413,
+                    "endColumn": 63,
+                    "endOffset": 10472
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1270,
+                        "endColumn": 63,
+                        "endOffset": 1329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 10477,
+                    "endColumn": 65,
+                    "endOffset": 10538
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1334,
+                        "endColumn": 65,
+                        "endOffset": 1395
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 10543,
+                    "endColumn": 48,
+                    "endOffset": 10587
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1575,
+                        "endColumn": 48,
+                        "endOffset": 1619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 10592,
+                    "endColumn": 73,
+                    "endOffset": 10661
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1624,
+                        "endColumn": 73,
+                        "endOffset": 1693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 10666,
+                    "endColumn": 121,
+                    "endOffset": 10783
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1698,
+                        "endColumn": 121,
+                        "endOffset": 1815
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 10788,
+                    "endColumn": 227,
+                    "endOffset": 11011
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.5/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 408,
+                        "endColumn": 227,
+                        "endOffset": 631
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 11016,
+                    "endColumn": 80,
+                    "endOffset": 11092
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.5/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 636,
+                        "endColumn": 80,
+                        "endOffset": 712
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 11097,
+                    "endColumn": 76,
+                    "endOffset": 11169
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1820,
+                        "endColumn": 76,
+                        "endOffset": 1892
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 11174,
+                    "endColumn": 52,
+                    "endOffset": 11222
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1897,
+                        "endColumn": 52,
+                        "endOffset": 1945
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 11227,
+                    "endColumn": 76,
+                    "endOffset": 11299
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-iw/values-iw.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1950,
+                        "endColumn": 76,
+                        "endOffset": 2022
                     }
                 }
             }

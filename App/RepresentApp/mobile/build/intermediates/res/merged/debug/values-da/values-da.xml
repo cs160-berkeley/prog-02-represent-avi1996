@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1t</item>
+        <item quantity="other">%dt</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1m</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1s</item>
+        <item quantity="other">%ds</item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Naviger hjem"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
@@ -48,19 +60,62 @@
     <string msgid="311697239335516384" name="common_open_on_phone">"Åbn på telefonen"</string>
     <string msgid="3156914698180786012" name="common_signin_button_text">"Log ind"</string>
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Log ind med Google"</string>
-    <string msgid="8327680881775995150" name="mr_media_route_button_content_description">"Cast"</string>
-    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Søger efter enheder..."</string>
-    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Opret forbindelse til enheden"</string>
-    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Afbryd forbindelsen"</string>
-    <string msgid="3641544772007543920" name="mr_media_route_controller_no_info_available">"Der er ingen tilgængelige oplysninger"</string>
-    <string msgid="8315773974194466049" name="mr_media_route_controller_pause">"Sæt på pause"</string>
-    <string msgid="5214423499524760404" name="mr_media_route_controller_play">"Afspil"</string>
-    <string msgid="379358765881274425" name="mr_media_route_controller_settings_description">"Ruteindstillinger"</string>
-    <string msgid="5398645111664294430" name="mr_media_route_controller_stop">"Stop med at caste"</string>
-    <string msgid="5441529851481176817" name="mr_system_route_name">"System"</string>
-    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Enheder"</string>
+    <string name="dgts__call_me">Ring til mig</string>
+    <string name="dgts__calling">Ringer…</string>
+    <string name="dgts__confirmation_code">Bekræftelseskode</string>
+    <string name="dgts__confirmation_edit_hint">Indtast den 6-cifrede kode vi har sendt dig</string>
+    <string name="dgts__confirmation_error">Ikke i stand til at bekræfte dit telefonnummer</string>
+    <string name="dgts__confirmation_error_alternative">Beklager, vi har problemer med at sende dig en bekræftelseskode.</string>
+    <string name="dgts__confirmation_expired">Denne kode er udløbet. Send venligst bekræftelseskode igen.</string>
+    <string name="dgts__continue">Fortsæt</string>
+    <string name="dgts__digits_logo_desc">digits-logoikon</string>
+    <string name="dgts__digits_logo_name_desc">digits-logonavn</string>
+    <string name="dgts__dismiss">Afvis</string>
+    <string name="dgts__done">Færdig</string>
+    <string name="dgts__email_request_edit_hint">E-mailadresse</string>
+    <string name="dgts__email_request_title">Indtast e-mailadresse</string>
+    <string name="dgts__find_your_friends">Find dine venner</string>
+    <string name="dgts__image_header_description">Billedsidehoved for log ind</string>
+    <string name="dgts__invalid_email">Ugyldig e-mail. Prøv igen</string>
+    <string name="dgts__login_digits_text">Brug mit telefonnummer</string>
+    <string name="dgts__network_error">Kontrollér dit netværk, og prøv igen.</string>
+    <string name="dgts__not_now">Ikke nu</string>
+    <string name="dgts__okay">Okay</string>
+    <string name="dgts__phone_number_edit_hint">Dit nummer</string>
+    <string name="dgts__phone_number_text">Indtast dit telefonnummer</string>
+    <string name="dgts__pin_code_verification_title">Indtast 2-trins-bekræftelseskode</string>
+    <string name="dgts__resend_confirmation_button_code">Send kode igen</string>
+    <string name="dgts__resend_confirmation_text">Send bekræftelseskode igen</string>
+    <string name="dgts__sending">Sender…</string>
+    <string name="dgts__success_desc">Ikonet Fuldført</string>
+    <string name="dgts__try_again">Prøv igen</string>
+    <string name="dgts__try_again_confirmation">Tjek venligst din kode og prøv igen.</string>
+    <string name="dgts__try_again_email">Tjek venligst din e-mail og prøv igen</string>
+    <string name="dgts__try_again_phone_number">Tjek venligst dit nummer og prøv igen.</string>
+    <string name="dgts__try_another_phone">Prøv et andet telefonnummer</string>
+    <string name="dgts__unsupported_operator_error">Kan ikke sende dette nummer en SMS-besked.</string>
+    <string name="dgts__upload_contacts">Vi bruger Digits by Twitter til at finde flere af dine venner, der bruger denne app. Når du trykker på OK, uploader vi din adressebog til Digits by Twitter, så vi kan hjælpe dig med at finde brugere af %1$s, du kender, eller hjælpe andre brugere af %1$s med at finde dig.</string>
+    <string name="dgts__verification_code">Bekræftelseskode</string>
+    <string name="dgts_pin_code_terms">Du har tidligere sat en 2-trins-bekræftelseskode på digits.com</string>
     <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Ryd søgning"</string>
     <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Søg"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
-    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Køb med Google"</string>
+    <string name="tw__allow_btn_txt">Tillad</string>
+    <string name="tw__like_tweet">Like Tweet</string>
+    <string name="tw__liked_tweet">Fjern like</string>
+    <string name="tw__loading_tweet">Indlæser tweet</string>
+    <string name="tw__login_btn_txt">Log ind med Twitter</string>
+    <string name="tw__not_now_btn_txt">Ikke nu</string>
+    <string name="tw__pause">pause</string>
+    <string name="tw__play">afspil</string>
+    <string name="tw__relative_date_format_long">d/M/y</string>
+    <string name="tw__relative_date_format_short">d. MMM</string>
+    <string name="tw__replay">afspil igen</string>
+    <string name="tw__retweeted_by_format">Retweetet af %1$s</string>
+    <string name="tw__share_content_format">Tjek \@%1$s\s tweet: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_email_desc">Tillad, at %1$s får adgang til den e-mail-adresse, der er knyttet til din Twitter-konto \@%2$s, så %1$s kan bruge den i overensstemmelse med privatlivspolitikken. %1$s kan f.eks. sende opdateringer og andre oplysninger til adressen.</string>
+    <string name="tw__share_email_title">Del din e-mailadresse</string>
+    <string name="tw__share_subject_format">Tweet fra %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">Del tweet</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
 </resources>

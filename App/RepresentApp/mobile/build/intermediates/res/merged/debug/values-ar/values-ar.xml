@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1 س</item>
+        <item quantity="other">%d س</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1 د</item>
+        <item quantity="other">%d د</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1 ث</item>
+        <item quantity="other">%d ث</item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s، %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s، %2$s، %3$s"</string>
@@ -48,19 +60,63 @@
     <string msgid="311697239335516384" name="common_open_on_phone">"فتح على الهاتف"</string>
     <string msgid="3156914698180786012" name="common_signin_button_text">"تسجل الدخول"</string>
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"‏تسجيل الدخول عبر Google"</string>
-    <string msgid="8327680881775995150" name="mr_media_route_button_content_description">"إرسال"</string>
-    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"جارٍ البحث عن الأجهزة…"</string>
-    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"الاتصال بجهاز"</string>
-    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"قطع الاتصال"</string>
-    <string msgid="3641544772007543920" name="mr_media_route_controller_no_info_available">"لا تتوفر أية معلومات"</string>
-    <string msgid="8315773974194466049" name="mr_media_route_controller_pause">"إيقاف مؤقت"</string>
-    <string msgid="5214423499524760404" name="mr_media_route_controller_play">"تشغيل"</string>
-    <string msgid="379358765881274425" name="mr_media_route_controller_settings_description">"إعدادات المسار"</string>
-    <string msgid="5398645111664294430" name="mr_media_route_controller_stop">"إيقاف الإرسال"</string>
-    <string msgid="5441529851481176817" name="mr_system_route_name">"النظام"</string>
-    <string msgid="7498112907524977311" name="mr_user_route_category_name">"الأجهزة"</string>
+    <string name="dgts__call_me">الاتصال بي</string>
+    <string name="dgts__calling">جاري الاتّصال…</string>
+    <string name="dgts__confirmation_code">رمز التأكيد</string>
+    <string name="dgts__confirmation_edit_hint">أدخِل الرمز المكوّن من ستة أرقام الذي أرسلناه إليك</string>
+    <string name="dgts__confirmation_error">لا يمكن تأكيد رقم هاتفك.</string>
+    <string name="dgts__confirmation_error_alternative">عذرًا، نواجه مشكلة في إرسال رمز التأكيد لك.</string>
+    <string name="dgts__confirmation_expired">هذا الرمز منتهي الصلاحية. يُرجى إعادة إرسال رمز التأكيد.</string>
+    <string name="dgts__continue">استمرار</string>
+    <string name="dgts__digits_logo_desc">أيقونة شعار digits</string>
+    <string name="dgts__digits_logo_name_desc">اسم شعار digits</string>
+    <string name="dgts__dismiss">تجاهل</string>
+    <string name="dgts__done">تمّ</string>
+    <string name="dgts__email_request_edit_hint">عنوان البريد الإلكترونيّ</string>
+    <string name="dgts__email_request_title">أدخِل عنوان البريد الإلكترونيّ</string>
+    <string name="dgts__find_your_friends">ابحث عن أصدقائك</string>
+    <string name="dgts__image_header_description">عنوان الصورة لتسجيل الدخول</string>
+    <string name="dgts__invalid_email">بريد إلكترونيّ غير صالح. حاول مرّة أخرى</string>
+    <string name="dgts__login_digits_text">استخدام رقم الهاتف الخاص بي</string>
+    <string name="dgts__network_error">يُرجى التحقق من الشبكة وإعادة المحاولة.</string>
+    <string name="dgts__not_now">ليس الآن</string>
+    <string name="dgts__okay">حسنًا</string>
+    <string name="dgts__phone_number_edit_hint">رقم هاتفك</string>
+    <string name="dgts__phone_number_text">أدخل رقم الهاتف الخاص بك</string>
+    <string name="dgts__pin_code_verification_title">أدخِل رمز التوثيق المكوَّن من خطوتين</string>
+    <string name="dgts__resend_confirmation_button_code">إعادة إرسال الرمز</string>
+    <string name="dgts__resend_confirmation_text">إعادة إرسال رمز التوثيق</string>
+    <string name="dgts__sending">جارٍ الإرسال…</string>
+    <string name="dgts__success_desc">أيقونة النجاح</string>
+    <string name="dgts__try_again">حاول مرّة أخرى</string>
+    <string name="dgts__try_again_confirmation">يُرجى التحقق من الرمز وإعادة المحاولة.</string>
+    <string name="dgts__try_again_email">يُرجى التحقق من بريدك الإلكترونيّ وإعادة المحاولة.</string>
+    <string name="dgts__try_again_phone_number">يُرجى التحقق من الرقم وإعادة المحاولة.</string>
+    <string name="dgts__try_another_phone">جرّب رقم هاتف مختلف.</string>
+    <string name="dgts__unsupported_operator_error">تعذر إرسال هذا العدد في رسالة نصّيّة قصيرة.</string>
+    <string name="dgts__upload_contacts">نحن نستخدم  Digits بواسطة\
+تويتر في العثور على المزيد من أصدقائك الذين يستخدمون هذا التطبيق. عندما تنقر موافق، سنقوم/ برفع دفتر عناوينك إلى Digits بواسطة تويتر، كي نتمكّن من مساعدتك في العثور على مستخدمي %1$s الذين تعرفهم أو مساعدة مستخدمي %1$s الآخرين في العثور عليك.</string>
+    <string name="dgts__verification_code">رمز التوثيق</string>
+    <string name="dgts_pin_code_terms">لقد قمتَ مسبقًا بتعيين رمز توثيق مكوَّن من خطوتين على digits.Com</string>
     <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"مسح البحث"</string>
     <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"البحث"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
-    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"الشراء عبر Google"</string>
+    <string name="tw__allow_btn_txt">السماح</string>
+    <string name="tw__like_tweet">إعجاب بالتغريدة</string>
+    <string name="tw__liked_tweet">إلغاء الإعجاب</string>
+    <string name="tw__loading_tweet">يتم تحميل التغريدة</string>
+    <string name="tw__login_btn_txt">سجّل الدخول بواسطة تويتر</string>
+    <string name="tw__not_now_btn_txt">ليس الآن</string>
+    <string name="tw__pause">توقف</string>
+    <string name="tw__play">تشغيل</string>
+    <string name="tw__relative_date_format_long">d /M /y</string>
+    <string name="tw__relative_date_format_short">d MMM</string>
+    <string name="tw__replay">إعادة التشغيل</string>
+    <string name="tw__retweeted_by_format">مُعاد تغريدها بواسطة %1$s</string>
+    <string name="tw__share_content_format">اطلع على تغريدة ‎\@%1$s\: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_email_desc">السماح لـ %1$s بالدخول إلى البريد الإلكترونيّ المرتبِط بحساب تويتر الخاصّ بك ‎\@%2$s كي يتمكن %1$s من استخدامه استنادًا إلى سياسة الخصوصيّة الخاصّة به. على سبيل المثال، يمكن لـ %1$s أن يرسِل لك تحديثات ومعلومات أخرى على ذلك العنوان.</string>
+    <string name="tw__share_email_title">شارِك عنوان بريدك الإلكترونيّ</string>
+    <string name="tw__share_subject_format">تغريدة من %1$s (‎\@%2$s)</string>
+    <string name="tw__share_tweet">مشاركة التغريدة</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
 </resources>

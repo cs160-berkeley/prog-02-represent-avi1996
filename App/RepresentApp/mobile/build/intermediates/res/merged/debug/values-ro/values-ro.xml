@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1 h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1 m</item>
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1 s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigați la ecranul de pornire"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
@@ -48,19 +60,65 @@
     <string msgid="311697239335516384" name="common_open_on_phone">"Deschideți pe telefon"</string>
     <string msgid="3156914698180786012" name="common_signin_button_text">"Conectați-vă"</string>
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Conectați-vă cu Google"</string>
-    <string msgid="8327680881775995150" name="mr_media_route_button_content_description">"Trimiteți"</string>
-    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Se caută dispozitive..."</string>
-    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Conectați-vă la dispozitiv"</string>
-    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Deconectați-vă"</string>
-    <string msgid="3641544772007543920" name="mr_media_route_controller_no_info_available">"Nu sunt disponibile informații"</string>
-    <string msgid="8315773974194466049" name="mr_media_route_controller_pause">"Întrerupeți"</string>
-    <string msgid="5214423499524760404" name="mr_media_route_controller_play">"Redați"</string>
-    <string msgid="379358765881274425" name="mr_media_route_controller_settings_description">"Setări pentru traseu"</string>
-    <string msgid="5398645111664294430" name="mr_media_route_controller_stop">"Nu mai proiectați"</string>
-    <string msgid="5441529851481176817" name="mr_system_route_name">"Sistem"</string>
-    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Dispozitive"</string>
+    <string name="dgts__call_me">Sună-mă</string>
+    <string name="dgts__calling">Se apelează…</string>
+    <string name="dgts__confirmation_code">Cod de confirmare</string>
+    <string name="dgts__confirmation_edit_hint">Introdu codul de 6 cifre pe care ți l-am trimis</string>
+    <string name="dgts__confirmation_error">Nu s-a putut confirma numărul de telefon</string>
+    <string name="dgts__confirmation_error_alternative">Ne pare rău, nu reușim să-ți trimitem un cod de confirmare.</string>
+    <string name="dgts__confirmation_expired">Acest cod a expirat. Retrimite codul de confirmare.</string>
+    <string name="dgts__continue">Continuă</string>
+    <string name="dgts__digits_logo_desc">pictograma siglei digits</string>
+    <string name="dgts__digits_logo_name_desc">numele siglei digits</string>
+    <string name="dgts__dismiss">Renunță</string>
+    <string name="dgts__done">Gata</string>
+    <string name="dgts__email_request_edit_hint">Adresă de e-mail</string>
+    <string name="dgts__email_request_title">Introdu adresa de e-mail</string>
+    <string name="dgts__find_your_friends">Găsește-ți prietenii</string>
+    <string name="dgts__image_header_description">Imagine de antet pentru conectare</string>
+    <string name="dgts__invalid_email">Adresă de e-mail nevalidă. Încearcă din nou.</string>
+    <string name="dgts__login_digits_text">Folosește-mi numărul de telefon</string>
+    <string name="dgts__network_error">Verifică-ți rețeaua și încearcă din nou.</string>
+    <string name="dgts__not_now">Nu acum</string>
+    <string name="dgts__okay">OK</string>
+    <string name="dgts__phone_number_edit_hint">Numărul tău</string>
+    <string name="dgts__phone_number_text">Introdu numărul tău de telefon</string>
+    <string name="dgts__pin_code_verification_title">Introdu codul de verificare în 2 pași</string>
+    <string name="dgts__resend_confirmation_button_code">Retrimite codul</string>
+    <string name="dgts__resend_confirmation_text">Retrimite codul de confirmare</string>
+    <string name="dgts__sending">Se trimite…</string>
+    <string name="dgts__success_desc">Pictograma Succes</string>
+    <string name="dgts__try_again">Încearcă din nou</string>
+    <string name="dgts__try_again_confirmation">Verifică-ți codul și încearcă din nou.</string>
+    <string name="dgts__try_again_email">Verifică-ți adresa de e-mail și încearcă din nou</string>
+    <string name="dgts__try_again_phone_number">Verifică-ți numărul și încearcă din nou.</string>
+    <string name="dgts__try_another_phone">Încearcă un alt număr de telefon</string>
+    <string name="dgts__unsupported_operator_error">Nu s-a putut trimite un mesaj SMS la acest număr.</string>
+    <string name="dgts__upload_contacts">Folosim Digits by Twitter pentru a găsi mai mulți prieteni ai tăi \
+care folosesc această aplicație. Atunci când atingi OK, îți vom încărca \
+agenda în Digits by Twitter, ca să te ajutăm să găsești utilizatori %1$s pe care îi cunoști sau ca să-i ajutăm pe ceilalți \
+utilizatori %1$s să te găsească pe tine.</string>
+    <string name="dgts__verification_code">Cod de verificare</string>
+    <string name="dgts_pin_code_terms">Ai setat anterior un cod de verificare în 2 pași pe digits.com</string>
     <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Ștergeți căutarea"</string>
     <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Căutați"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"˃999"</string>
-    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Cumpărați cu Google"</string>
+    <string name="tw__allow_btn_txt">Permite</string>
+    <string name="tw__like_tweet">Apreciază Tweetul</string>
+    <string name="tw__liked_tweet">Anulează aprecierea</string>
+    <string name="tw__loading_tweet">Se încarcă Tweetul</string>
+    <string name="tw__login_btn_txt">Conectează-te cu Twitter</string>
+    <string name="tw__not_now_btn_txt">Nu acum</string>
+    <string name="tw__pause">pauză</string>
+    <string name="tw__play">redă</string>
+    <string name="tw__relative_date_format_long">dd/MM/yy</string>
+    <string name="tw__relative_date_format_short">dd MMM</string>
+    <string name="tw__replay">redă din nou</string>
+    <string name="tw__retweeted_by_format">Redistribuit de %1$s</string>
+    <string name="tw__share_content_format">Vezi Tweetul lui \@%1$s: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_email_desc">Permite ca %1$s să acceseze adresa de e-mail asociată contului tău Twitter \@%2$s, astfel încât %1$s să o folosească în conformitate cu politica sa de confidențialitate. De exemplu, %1$s ți-ar putea trimite actualizări și alte informații la această adresă.</string>
+    <string name="tw__share_email_title">Partajează-ți adresa de e-mail</string>
+    <string name="tw__share_subject_format">Tweet de la %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">Distribuie Tweetul</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
 </resources>

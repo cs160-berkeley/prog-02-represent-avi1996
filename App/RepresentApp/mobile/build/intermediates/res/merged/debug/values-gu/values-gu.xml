@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dgts__confirmation_edit_hint">અમે તમને મોકલેલો 6-અંકનો કોડ દાખલ કરો</string>
+    <string name="dgts__resend_confirmation_button_code">કોડ ફરીથી કોડ</string>
+    <string name="dgts__resend_confirmation_text">પુષ્ટિ સંકેત ફરીથી મોકલો</string>
+    <string name="tw__pause">અટકાવો</string>
+    <string name="tw__play">પ્લે કરો</string>
+    <string name="tw__replay">પુન પ્લે કરો</string>
+    <string name="tw__share_email_desc">%1$sને તમારા Twitter એકાઉન્ટ \@%2$s સાથે સંકળાયેલા ઈમેલ એડ્રેસનો ઉપયોગ કરવાની મંજૂરી આપો જેથી %1$s તેનો ઉપયોગ તેની ગોપનીયતા નીતિ પ્રમાણે કરી શકે. ઉદા તરીકે, %1$s તે એડ્રેસ પર તમને અપડેટ્સ અને અન્ય માહિતી મોકલી શકે.</string>
+</resources>

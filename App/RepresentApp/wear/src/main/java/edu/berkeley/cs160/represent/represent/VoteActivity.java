@@ -26,11 +26,9 @@ public class VoteActivity extends Activity {
                 mBarack = (TextView) stub.findViewById(R.id.brobama);
                 mMitt = (TextView) stub.findViewById(R.id.mitt);
 
-                if (!location.equals("30005")) {
-                    mLocation.setText("Yolo County, CA");
-                    mBarack.setText("Barack Obama - 99.8%");
-                    mMitt.setText("Mitt Romney - 0.2%");
-                }
+                mLocation.setText(getIntent().getStringExtra("county_name"));
+                mBarack.setText(getIntent().getStringExtra("obama"));
+                mMitt.setText(getIntent().getStringExtra("mitt"));
 
             }
         });

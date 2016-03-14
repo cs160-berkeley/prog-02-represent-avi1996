@@ -51,5 +51,4 @@
     <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Limpar pesquisa"</string>
     <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Pesquisar"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
-    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Comprar com o Google"</string>
 </resources>

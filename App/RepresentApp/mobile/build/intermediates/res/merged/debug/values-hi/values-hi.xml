@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1 घंटा</item>
+        <item quantity="other">%d घंटे</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1 क्षण</item>
+        <item quantity="other">%d क्षण</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1 पल</item>
+        <item quantity="other">%d पल</item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"मुख्यपृष्ठ पर नेविगेट करें"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
@@ -48,19 +60,62 @@
     <string msgid="311697239335516384" name="common_open_on_phone">"फ़ोन पर खोलें"</string>
     <string msgid="3156914698180786012" name="common_signin_button_text">"प्रवेश करें"</string>
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Google के साथ प्रवेश करें"</string>
-    <string msgid="8327680881775995150" name="mr_media_route_button_content_description">"कास्ट करें"</string>
-    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"डिवाइस की खोज हो रही है…"</string>
-    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"डिवाइस से कनेक्ट करें"</string>
-    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"डिस्कनेक्ट करें"</string>
-    <string msgid="3641544772007543920" name="mr_media_route_controller_no_info_available">"कोई जानकारी उपलब्‍ध नहीं"</string>
-    <string msgid="8315773974194466049" name="mr_media_route_controller_pause">"रोकें"</string>
-    <string msgid="5214423499524760404" name="mr_media_route_controller_play">"चलाएं"</string>
-    <string msgid="379358765881274425" name="mr_media_route_controller_settings_description">"मार्ग सेटिंग"</string>
-    <string msgid="5398645111664294430" name="mr_media_route_controller_stop">"कास्ट करना बंद करें"</string>
-    <string msgid="5441529851481176817" name="mr_system_route_name">"सिस्टम"</string>
-    <string msgid="7498112907524977311" name="mr_user_route_category_name">"डिवाइस"</string>
+    <string name="dgts__call_me">मुझे कॉल करें</string>
+    <string name="dgts__calling">कॉल किया जा रहा है…</string>
+    <string name="dgts__confirmation_code">पुष्टिकरण कोड</string>
+    <string name="dgts__confirmation_edit_hint">हमारे द्वारा आपको भेजा गया 6 अंको का कोड दर्ज करें</string>
+    <string name="dgts__confirmation_error">आपके फ़ोन नंबर की पुष्टि करने में असमर्थ</string>
+    <string name="dgts__confirmation_error_alternative">क्षमा करें, हमें आपको एक पुष्टिकरण कोड भेजने में परेशानी हो रही है.</string>
+    <string name="dgts__confirmation_expired">यह कोड समाप्त हो गया है. कृपया पुष्टिकरण कोड पुनः भेजें.</string>
+    <string name="dgts__continue">जारी रखें</string>
+    <string name="dgts__digits_logo_desc">डिजिट्स लोगो आइकन</string>
+    <string name="dgts__digits_logo_name_desc">डिजिट्स लोगो नाम</string>
+    <string name="dgts__dismiss">बर्खास्त करें</string>
+    <string name="dgts__done">पूर्ण</string>
+    <string name="dgts__email_request_edit_hint">ईमेल पता</string>
+    <string name="dgts__email_request_title">ईमेल पता दर्ज करें</string>
+    <string name="dgts__find_your_friends">अपने मित्रों को खोजें</string>
+    <string name="dgts__image_header_description">लॉगिन के लिए इमेज हैडर</string>
+    <string name="dgts__invalid_email">अमान्य ईमेल. फिर से कोशिश करें</string>
+    <string name="dgts__login_digits_text">मेरा फ़ोन नंबर इस्तेमाल करें</string>
+    <string name="dgts__network_error">कृपया अपने नेटवर्क की जांच करें और फिर कोशिश करें.</string>
+    <string name="dgts__not_now">अभी नहीं</string>
+    <string name="dgts__okay">ठीक है</string>
+    <string name="dgts__phone_number_edit_hint">आपका नंबर</string>
+    <string name="dgts__phone_number_text">अपना फ़ोन नंबर दर्ज करें</string>
+    <string name="dgts__pin_code_verification_title">2-चरणीय सत्यापन कोड दर्ज करें</string>
+    <string name="dgts__resend_confirmation_button_code">कोड फिर से भेजें</string>
+    <string name="dgts__resend_confirmation_text">पुष्टिकरण कोड पुन: भेजें</string>
+    <string name="dgts__sending">भेजा जा रहा है…</string>
+    <string name="dgts__success_desc">सफलता चिह्न</string>
+    <string name="dgts__try_again">फिर से कोशिश करें</string>
+    <string name="dgts__try_again_confirmation">कृपया अपने कोड की जांच करें और फिर कोशिश करें.</string>
+    <string name="dgts__try_again_email">कृपया अपने ईमेल की जांच करें और फिर कोशिश करें.</string>
+    <string name="dgts__try_again_phone_number">कृपया अपने नंबर की जांच करें और फिर कोशिश करें.</string>
+    <string name="dgts__try_another_phone">एक अलग फ़ोन नंबर आजमाएं</string>
+    <string name="dgts__unsupported_operator_error">इस नंबर पर SMS संदेश भेजने में असमर्थ.</string>
+    <string name="dgts__upload_contacts">इस एप्प का इस्तेमाल करने वाले आपके मित्रों को ढूंढने के लिए हम ट्विटर के डिजिट्स का इस्तेमाल करेंगे. जब आप ठीक है को दबाएंगे, तब हम ट्विटर के डिजिट्स पर आपकी पता पुस्तिका को अपलोड करेंगे ताकि हम आपको %1$s के आपके परिचित उपयोगकर्ताओं को खोजने में मदद कर सके या %1$s के अन्य उपयोगकर्ताओं को आपको खोजने में मदद कर सकते हैं.</string>
+    <string name="dgts__verification_code">सत्यापन कोड</string>
+    <string name="dgts_pin_code_terms">आप पहले से digits.com पर 2-चरणीय सत्यापन कोड निर्धारित किया है</string>
     <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"खोज साफ़ करें"</string>
     <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"खोजें"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
-    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Google से खरीदें"</string>
+    <string name="tw__allow_btn_txt">अनुमति दें</string>
+    <string name="tw__like_tweet">ट्वीट पसंद करें</string>
+    <string name="tw__liked_tweet">पसंद पूर्ववत करें</string>
+    <string name="tw__loading_tweet">ट्वीट लोड हो रहे हैं</string>
+    <string name="tw__login_btn_txt">ट्विटर के साथ लॉगइन करें</string>
+    <string name="tw__not_now_btn_txt">अभी नहीं</string>
+    <string name="tw__pause">विराम</string>
+    <string name="tw__play">चलाएँ</string>
+    <string name="tw__relative_date_format_long">d.M.y</string>
+    <string name="tw__relative_date_format_short">d MMM</string>
+    <string name="tw__replay">रीप्ले</string>
+    <string name="tw__retweeted_by_format">%1$s द्वारा रीट्विट</string>
+    <string name="tw__share_content_format">\@%1$s के ट्वीट पर नजर डालें: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_email_desc">%1$s को अपने ट्विटर खाते \@%2$s से संबंधित ईमेल पते का उपयोग करने की अनुमति दें ताकि %1$s उसका गोपनीयता नीति के अनुसार इस्तेमाल कर सके. उदाहरण के लिए, %1$s उस पते पर आपको अपडेट और अन्य जानकारी भेज सकते हैं.</string>
+    <string name="tw__share_email_title">अपना ईमेल पता साझा करें</string>
+    <string name="tw__share_subject_format">%1$s (\@%2$s) से ट्वीट</string>
+    <string name="tw__share_tweet">ट्वीट साझा करें</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
 </resources>

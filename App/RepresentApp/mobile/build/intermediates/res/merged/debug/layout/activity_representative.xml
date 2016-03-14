@@ -7,17 +7,18 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/divider"
     tools:context="edu.berkeley.cs160.represent.represent.RepresentativeActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@drawable/reps_shape_democrat"
         android:id="@+id/representative_background">
 
         <ImageView
             android:layout_width="@dimen/rep_image_width"
-            android:layout_height="@dimen/rep_image_height"
+            android:layout_height="@dimen/rep_image_width"
             android:layout_centerHorizontal="true"
             android:layout_alignParentTop="true"
             android:layout_marginTop="@dimen/field_text_separation"
@@ -43,31 +44,19 @@
             android:id="@+id/rep_eod_text"
             android:layout_below="@+id/rep_party_text"
             android:layout_marginStart="@dimen/field_icon_separation"
-            android:layout_marginTop="@dimen/field_text_separation"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/committees_placeholder"
-            android:textColor="@color/icons"
-            android:textSize="@dimen/rep_text_size"
-            android:id="@+id/rep_committees"
-            android:layout_below="@+id/rep_eod_text"
-            android:layout_marginStart="@dimen/field_icon_separation"
-            android:layout_marginTop="@dimen/field_text_separation"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/bills_placeholder"
-            android:textColor="@color/icons"
-            android:textSize="@dimen/rep_text_size"
-            android:id="@+id/rep_bills"
-            android:layout_below="@+id/rep_committees"
-            android:layout_marginStart="@dimen/field_icon_separation"
-            android:layout_marginTop="@dimen/field_text_separation"/>
+            android:layout_marginTop="@dimen/field_text_separation"
+            android:layout_marginBottom="@dimen/field_text_separation"/>
 
     </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rep_info_list"
+        android:layout_below="@id/representative_background"
+        android:divider="@color/divider"
+        android:dividerHeight="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
 
 
 </RelativeLayout>

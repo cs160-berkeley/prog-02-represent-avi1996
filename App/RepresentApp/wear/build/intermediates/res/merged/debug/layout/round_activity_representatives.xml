@@ -7,10 +7,11 @@
     tools:deviceIds="wear_round">
 
     <TextView
-        android:id="@+id/text"
+        android:id="@+id/rep_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="@string/hello_round" />
+
 </RelativeLayout>

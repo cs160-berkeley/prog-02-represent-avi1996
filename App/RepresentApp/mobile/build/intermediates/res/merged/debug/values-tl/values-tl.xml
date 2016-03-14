@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1h</item>
+        <item quantity="other">%dh</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1m</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1s</item>
+        <item quantity="other">%ds</item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Mag-navigate patungo sa home"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
@@ -48,19 +60,62 @@
     <string msgid="311697239335516384" name="common_open_on_phone">"Buksan sa telepono"</string>
     <string msgid="3156914698180786012" name="common_signin_button_text">"Mag-sign in"</string>
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Mag-sign in sa Google"</string>
-    <string msgid="8327680881775995150" name="mr_media_route_button_content_description">"I-cast"</string>
-    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Naghahanap ng mga device…"</string>
-    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Kumonekta sa device"</string>
-    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Idiskonekta"</string>
-    <string msgid="3641544772007543920" name="mr_media_route_controller_no_info_available">"Walang available na impormasyon"</string>
-    <string msgid="8315773974194466049" name="mr_media_route_controller_pause">"I-pause"</string>
-    <string msgid="5214423499524760404" name="mr_media_route_controller_play">"I-play"</string>
-    <string msgid="379358765881274425" name="mr_media_route_controller_settings_description">"Mga setting ng ruta"</string>
-    <string msgid="5398645111664294430" name="mr_media_route_controller_stop">"Itigil ang pagca-cast"</string>
-    <string msgid="5441529851481176817" name="mr_system_route_name">"System"</string>
-    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Mga Device"</string>
+    <string name="dgts__call_me">Tawagan ako</string>
+    <string name="dgts__calling">Tumatawag…</string>
+    <string name="dgts__confirmation_code">Code sa Pagkumpirma</string>
+    <string name="dgts__confirmation_edit_hint">Ilagay ang 6-digit code na ipinadala namin sa iyo</string>
+    <string name="dgts__confirmation_error">Hindi makumpirma ang numero ng iyong telepono. </string>
+    <string name="dgts__confirmation_error_alternative">Paumanhin, nagkakaproblema kaming ipadala sa iyo ang code ng kumpirmasyon.</string>
+    <string name="dgts__confirmation_expired">Paso na ang code na ito. Pakipadala ulit ang code ng kumpirmasyon.</string>
+    <string name="dgts__continue">Magpatuloy</string>
+    <string name="dgts__digits_logo_desc">icon ng digits logo</string>
+    <string name="dgts__digits_logo_name_desc">pangalan ng digits logo</string>
+    <string name="dgts__dismiss">I-dismiss</string>
+    <string name="dgts__done">Tapos na</string>
+    <string name="dgts__email_request_edit_hint">Email address</string>
+    <string name="dgts__email_request_title">Ilagay ang email address</string>
+    <string name="dgts__find_your_friends">Hanapin ang mga kaibigan mo</string>
+    <string name="dgts__image_header_description">Image header para sa login</string>
+    <string name="dgts__invalid_email">Maling Email. Subukan Ulit</string>
+    <string name="dgts__login_digits_text">Gamitin ang numero ng telepono.</string>
+    <string name="dgts__network_error">Pakitingnan ang inyong network at subukan ulit.</string>
+    <string name="dgts__not_now">Hindi ngayon</string>
+    <string name="dgts__okay">Okay</string>
+    <string name="dgts__phone_number_edit_hint">Ang Numero Mo</string>
+    <string name="dgts__phone_number_text">Ipasok ang numero ng telepono mo.</string>
+    <string name="dgts__pin_code_verification_title">Ipasok ang 2-step verification code</string>
+    <string name="dgts__resend_confirmation_button_code">Ipadala muli ang code</string>
+    <string name="dgts__resend_confirmation_text">Ipadala ulit code ng kumpirmasyon</string>
+    <string name="dgts__sending">Pinapadala…</string>
+    <string name="dgts__success_desc">Success Icon</string>
+    <string name="dgts__try_again">Subukan ulit</string>
+    <string name="dgts__try_again_confirmation">Pakitingan ulit ang inyong code a subukan ulit.</string>
+    <string name="dgts__try_again_email">Pakitingnan ang email mo at subukan ulit</string>
+    <string name="dgts__try_again_phone_number">Pakitingnan ang numero ninyo at subukan ulit.</string>
+    <string name="dgts__try_another_phone">Subukan ang ibang numero ng telepono</string>
+    <string name="dgts__unsupported_operator_error">Hindi mapadalhan ang numerong ito ng mensaheng SMS.</string>
+    <string name="dgts__upload_contacts">Ginagamit namin ang Digits by Twitter para mahanap ang iba mo pang mga kaibigan na gumagamit ng app na ito. Kapag tinap mo ang Okay, i-a-upload namin ang iyong address book sa Digits by Twitter para matulungan ka naming mahanap ang mga user ng %1$s na kilala mo o matulungan ang ibang mga user ng %1$s na matuklasan ka.</string>
+    <string name="dgts__verification_code">Code ng beripikasyon</string>
+    <string name="dgts_pin_code_terms">Nakapagtakda ka na ng 2-step verification code sa digits.com</string>
     <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"I-clear ang paghahanap"</string>
     <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Maghanap"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
-    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Bumili gamit ang Google"</string>
+    <string name="tw__allow_btn_txt">Payagan</string>
+    <string name="tw__like_tweet">Gustuhin ang Tweet</string>
+    <string name="tw__liked_tweet">I-undo ang Nagustuhan</string>
+    <string name="tw__loading_tweet">Naglo-load ng Tweet</string>
+    <string name="tw__login_btn_txt">Mag-log in gamit ang Twitter</string>
+    <string name="tw__not_now_btn_txt">Hindi ngayon</string>
+    <string name="tw__pause">i-pause</string>
+    <string name="tw__play">i-play</string>
+    <string name="tw__relative_date_format_long">d/M/y</string>
+    <string name="tw__relative_date_format_short">d MMM</string>
+    <string name="tw__replay">i-play muli</string>
+    <string name="tw__retweeted_by_format">Ni-retweet ni %1$s</string>
+    <string name="tw__share_content_format">Tingnan \@%1$s\'s Tweet: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_email_desc">Payagan si %1$s na mag-access ng email address na nakaugnay sa Twitter account mong \@%2$s nang magamit ito ni %1$s ayon sa patakaran sa pagkapribado. Halimbawa, maaaring magpadala sa iyo si %1$s ng mga update at iba pang impormasyon sa address na iyan.</string>
+    <string name="tw__share_email_title">Ibahagi ang email address mo</string>
+    <string name="tw__share_subject_format">Tweet mula kay %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">Ibahagi ang Tweet</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
 </resources>

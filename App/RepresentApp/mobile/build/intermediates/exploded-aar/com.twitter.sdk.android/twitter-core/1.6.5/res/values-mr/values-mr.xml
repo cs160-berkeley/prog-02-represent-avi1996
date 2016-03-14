@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/android/workspace/jenkins/workspace/fabric-android-deploy-to-staging/sdk/twitter/twitter-core/src/main/res/values-mr/strings.xml -->
+    <eat-comment/>
+    <string name="tw__share_email_desc">%1$s यांना आपले ट्विटर खाते \@%2$s शी निगडीत ई-मेल पत्ता घेण्याची परवानगी द्या जेणेकरुन %1$s आपल्या गोपनीयता धोरणानुसार त्याचा वापर करु शकतील. उदाहरणार्थ, %1$s आपल्याला त्या पत्त्यावर अपडेट्स आणि अन्य माहिती पाठवू शकतील.</string>
+</resources>

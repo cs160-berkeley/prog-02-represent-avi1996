@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/android/workspace/jenkins/workspace/fabric-android-deploy-to-staging/sdk/twitter/twitter-core/src/main/res/values-sk/strings.xml -->
+    <eat-comment/>
+    <string name="tw__allow_btn_txt">Povoliť</string>
+    <string name="tw__login_btn_txt">Prihlásiť sa na Twitter</string>
+    <string name="tw__not_now_btn_txt">Teraz nie</string>
+    <string name="tw__share_email_desc">Udeľte %1$s prístup k e-mailovej adrese priradenej k vášmu Twitter účtom \@%2$s, aby ju %1$s mohol použiť v súlade so svojimi zásadami ochrany súkromia. %1$s vám na túto adresu bude môcť posielať napríklad aktualizácie či iné informácie.</string>
+    <string name="tw__share_email_title">Zdieľajte vašu e-mailovú adresu</string>
+</resources>

@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/res/merged/debug/values-v16/values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 305
+                },
+                "from": {
+                    "file": "/Users/Avi/Development/CS160/Represent/RepresentApp/mobile/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-v16/values-v16.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 245,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 495
+                    }
+                }
+            }
+        ]
+    }
+]

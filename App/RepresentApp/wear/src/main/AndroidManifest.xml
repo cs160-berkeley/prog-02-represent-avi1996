@@ -3,6 +3,7 @@
     package="edu.berkeley.cs160.represent.represent">
 
     <uses-feature android:name="android.hardware.type.watch" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"

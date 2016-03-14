@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1s</item>
+        <item quantity="other">%ds</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1d</item>
+        <item quantity="other">%dd</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1s</item>
+        <item quantity="other">%d</item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ana ekrana git"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
@@ -48,19 +60,62 @@
     <string msgid="311697239335516384" name="common_open_on_phone">"Telefonda aç"</string>
     <string msgid="3156914698180786012" name="common_signin_button_text">"Oturum aç"</string>
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Google\'da oturum aç"</string>
-    <string msgid="8327680881775995150" name="mr_media_route_button_content_description">"Yayınla"</string>
-    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Cihaz arayın…"</string>
-    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Cihaza bağlanın"</string>
-    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Bağlantıyı kes"</string>
-    <string msgid="3641544772007543920" name="mr_media_route_controller_no_info_available">"Bilgi yok"</string>
-    <string msgid="8315773974194466049" name="mr_media_route_controller_pause">"Duraklat"</string>
-    <string msgid="5214423499524760404" name="mr_media_route_controller_play">"Oynat"</string>
-    <string msgid="379358765881274425" name="mr_media_route_controller_settings_description">"Rota ayarları"</string>
-    <string msgid="5398645111664294430" name="mr_media_route_controller_stop">"Yayını durdur"</string>
-    <string msgid="5441529851481176817" name="mr_system_route_name">"Sistem"</string>
-    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Cihazlar"</string>
+    <string name="dgts__call_me">Beni ara</string>
+    <string name="dgts__calling">Aranıyor…</string>
+    <string name="dgts__confirmation_code">Doğrulama kodu</string>
+    <string name="dgts__confirmation_edit_hint">Sana gönderdiğimiz 6 basamaklı kodu gir</string>
+    <string name="dgts__confirmation_error">Telefon numaran doğrulanamıyor</string>
+    <string name="dgts__confirmation_error_alternative">Üzgünüz, sana bir doğrulama kodu göndermede sorun yaşıyoruz.</string>
+    <string name="dgts__confirmation_expired">Bu kodun süresi doldu. Lütfen doğrulama kodunu yeniden gönder.</string>
+    <string name="dgts__continue">Devam</string>
+    <string name="dgts__digits_logo_desc">digits logo simgesi</string>
+    <string name="dgts__digits_logo_name_desc">digits logo ismi</string>
+    <string name="dgts__dismiss">Gizle</string>
+    <string name="dgts__done">Tamam</string>
+    <string name="dgts__email_request_edit_hint">E-posta adresi</string>
+    <string name="dgts__email_request_title">E-posta adresini gir</string>
+    <string name="dgts__find_your_friends">Arkadaşlarını bul</string>
+    <string name="dgts__image_header_description">Giriş için görüntü başlığı</string>
+    <string name="dgts__invalid_email">Geçersiz e-posta. Tekrar Deneyin</string>
+    <string name="dgts__login_digits_text">Telefon numaramı kullan</string>
+    <string name="dgts__network_error">Lütfen ağını kontrol et ve yeniden dene.</string>
+    <string name="dgts__not_now">Şu an değil</string>
+    <string name="dgts__okay">Tamam</string>
+    <string name="dgts__phone_number_edit_hint">Numaran</string>
+    <string name="dgts__phone_number_text">Telefon numaranı gir</string>
+    <string name="dgts__pin_code_verification_title">2 adımlı onaylama kodunu gir</string>
+    <string name="dgts__resend_confirmation_button_code">Kodu yeniden gönder</string>
+    <string name="dgts__resend_confirmation_text">Doğrulama kodunu yeniden gönder</string>
+    <string name="dgts__sending">Gönderiliyor…</string>
+    <string name="dgts__success_desc">Başarılı Simgesi</string>
+    <string name="dgts__try_again">Yeniden Dene</string>
+    <string name="dgts__try_again_confirmation">Lütfen kodunu kontrol et ve yeniden dene.</string>
+    <string name="dgts__try_again_email">Lütfen e-postanızı  kontrol edin ve yeniden deneyin</string>
+    <string name="dgts__try_again_phone_number">Lütfen numaranı kontrol et ve yeniden dene.</string>
+    <string name="dgts__try_another_phone">Farklı bir telefon numarası dene</string>
+    <string name="dgts__unsupported_operator_error">Bu numaraya kısa mesaj gönderilemiyor.</string>
+    <string name="dgts__upload_contacts">Bu uygulamayı kullanan daha fazla arkadaşını bulmak için Digits by Twitter\'ı kullanırız. Tamam\'a dokunduğunda, rehberin Digits by Twitter\'a yüklenir böylece tanıdığın %1$s kullanıcılarını bulmana veya diğer %1$s kullanıcılarının seni bulmasına yardımcı olabiliriz.</string>
+    <string name="dgts__verification_code">Doğrulama kodu</string>
+    <string name="dgts_pin_code_terms">Daha önce digits.com üzerinden ayarladığın 2 adımlı doğrulama kodu</string>
     <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Aramayı temizle"</string>
     <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Ara"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
-    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Google ile satın al"</string>
+    <string name="tw__allow_btn_txt">İzin ver</string>
+    <string name="tw__like_tweet">Tweet Beğen</string>
+    <string name="tw__liked_tweet">Beğenmekten Vazgeç</string>
+    <string name="tw__loading_tweet">Tweet Yükleniyor</string>
+    <string name="tw__login_btn_txt">Twitter ile giriş yap</string>
+    <string name="tw__not_now_btn_txt">Şu an değil</string>
+    <string name="tw__pause">duraklat</string>
+    <string name="tw__play">oynat</string>
+    <string name="tw__relative_date_format_long">dd.MM.y</string>
+    <string name="tw__relative_date_format_short">d MMM</string>
+    <string name="tw__replay">tekrar oynat</string>
+    <string name="tw__retweeted_by_format">%1$s tarafından Retweetlendi</string>
+    <string name="tw__share_content_format">\@%1$s adlı kişinin Tweetini incele: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_email_desc">Twitter hesabın \@%2$s ile ilişkilendirilmiş e-posta adresine erişmesi için %1$s uygulamasına izin ver. Böylece %1$s bu e-posta adresini kendi gizlilik politikası kapsamında kullanabilir. Örneğin, %1$s bu adres üzerinden sana en yeni haberleri ve diğer bilgileri gönderebilir.</string>
+    <string name="tw__share_email_title">E-posta adresini paylaş</string>
+    <string name="tw__share_subject_format">Tweet gönderen: %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">Tweet Paylaş</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
 </resources>

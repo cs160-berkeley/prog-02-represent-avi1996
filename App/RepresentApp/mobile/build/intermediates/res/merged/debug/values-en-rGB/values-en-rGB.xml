@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1h</item>
+        <item quantity="other">%dh</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1m</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1s</item>
+        <item quantity="other">%ds</item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigate home"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
@@ -48,19 +60,62 @@
     <string msgid="311697239335516384" name="common_open_on_phone">"Open on phone"</string>
     <string msgid="3156914698180786012" name="common_signin_button_text">"Sign In"</string>
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Sign in with Google"</string>
-    <string msgid="8327680881775995150" name="mr_media_route_button_content_description">"Cast"</string>
-    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Searching for devices…"</string>
-    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Connect to device"</string>
-    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Disconnect"</string>
-    <string msgid="3641544772007543920" name="mr_media_route_controller_no_info_available">"No info available"</string>
-    <string msgid="8315773974194466049" name="mr_media_route_controller_pause">"Pause"</string>
-    <string msgid="5214423499524760404" name="mr_media_route_controller_play">"Play"</string>
-    <string msgid="379358765881274425" name="mr_media_route_controller_settings_description">"Route settings"</string>
-    <string msgid="5398645111664294430" name="mr_media_route_controller_stop">"Stop casting"</string>
-    <string msgid="5441529851481176817" name="mr_system_route_name">"System"</string>
-    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Devices"</string>
+    <string name="dgts__call_me">Call me</string>
+    <string name="dgts__calling">Calling…</string>
+    <string name="dgts__confirmation_code">Confirmation code</string>
+    <string name="dgts__confirmation_edit_hint">Enter the 6-digit code we sent you.</string>
+    <string name="dgts__confirmation_error">Unable to confirm your phone number</string>
+    <string name="dgts__confirmation_error_alternative">Sorry, we are having trouble sending you a confirmation code.</string>
+    <string name="dgts__confirmation_expired">This code has expired. Please resend confirmation code.</string>
+    <string name="dgts__continue">Continue</string>
+    <string name="dgts__digits_logo_desc">digits logo icon</string>
+    <string name="dgts__digits_logo_name_desc">digits logo name</string>
+    <string name="dgts__dismiss">Dismiss</string>
+    <string name="dgts__done">Done</string>
+    <string name="dgts__email_request_edit_hint">Email address</string>
+    <string name="dgts__email_request_title">Enter email address</string>
+    <string name="dgts__find_your_friends">Find your friends</string>
+    <string name="dgts__image_header_description">Image header for login</string>
+    <string name="dgts__invalid_email">Invalid Email. Try Again.</string>
+    <string name="dgts__login_digits_text">Use my phone number</string>
+    <string name="dgts__network_error">Please check your network and try again.</string>
+    <string name="dgts__not_now">Not now</string>
+    <string name="dgts__okay">OK</string>
+    <string name="dgts__phone_number_edit_hint">Your Number</string>
+    <string name="dgts__phone_number_text">Enter your phone number</string>
+    <string name="dgts__pin_code_verification_title">Enter 2-step verification code</string>
+    <string name="dgts__resend_confirmation_button_code">Resend Code</string>
+    <string name="dgts__resend_confirmation_text">Resend confirmation code</string>
+    <string name="dgts__sending">Sending…</string>
+    <string name="dgts__success_desc">Success Icon</string>
+    <string name="dgts__try_again">Try Again</string>
+    <string name="dgts__try_again_confirmation">Please check your code and try again.</string>
+    <string name="dgts__try_again_email">Please check your email and try again.</string>
+    <string name="dgts__try_again_phone_number">Please check your number and try again.</string>
+    <string name="dgts__try_another_phone">Try a different phone number</string>
+    <string name="dgts__unsupported_operator_error">Unable to send this number a text message.</string>
+    <string name="dgts__upload_contacts">We use Digits by Twitter to find more of your friends who use this app. When you tap OK, we\'ll upload your address book to Digits by Twitter so that we can help you find users of %1$s that you know or help other users of %1$s find you.</string>
+    <string name="dgts__verification_code">Verification code</string>
+    <string name="dgts_pin_code_terms">You have previously set a 2-step verification code on digits.com</string>
     <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Clear search"</string>
     <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Search"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
-    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Buy with Google"</string>
+    <string name="tw__allow_btn_txt">Allow</string>
+    <string name="tw__like_tweet">Like Tweet</string>
+    <string name="tw__liked_tweet">Undo Like</string>
+    <string name="tw__loading_tweet">Loading Tweet</string>
+    <string name="tw__login_btn_txt">Log in with Twitter</string>
+    <string name="tw__not_now_btn_txt"> Not now </string>
+    <string name="tw__pause">pause</string>
+    <string name="tw__play">play</string>
+    <string name="tw__relative_date_format_long">dd/MM/y</string>
+    <string name="tw__relative_date_format_short">d MMM</string>
+    <string name="tw__replay">replay</string>
+    <string name="tw__retweeted_by_format">Retweeted by %1$s</string>
+    <string name="tw__share_content_format">Check out \@%1$s\'s Tweet: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_email_desc">Allow %1$s to access the email address associated with your Twitter account \@%2$s so that %1$s can use it according to its privacy policy. For example, %1$s could send you updates and other information at that address.</string>
+    <string name="tw__share_email_title">Share your email address</string>
+    <string name="tw__share_subject_format">Tweet from %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">Share Tweet</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
 </resources>

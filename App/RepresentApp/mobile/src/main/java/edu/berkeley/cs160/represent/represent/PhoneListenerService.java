@@ -37,16 +37,33 @@ public class PhoneListenerService extends WearableListenerService {
             // replace sending a toast with, like, starting a new activity or something.
             // who said skeleton code is untouchable? #breakCSconceptions
 
-        } else if (messageEvent.getPath().equalsIgnoreCase("/new_location")) {
-            String value = new String(messageEvent.getData(), StandardCharsets.UTF_8);
-            Intent intent = new Intent(this, RepsListActivity.class );
+        } else if (messageEvent.getPath().equalsIgnoreCase("/random_location")) {
+            Intent intent = new Intent(this, PickLocationActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            intent.putExtra("type", RepsListActivity.TYPE_SEARCH_LOCATION);
-            intent.putExtra("zip", value);
+            intent.putExtra("random_location", true);
+            double[] location = randomLocationGenerator();
+            Log.d(TAG, "LAT " + ((Double) location[0]).toString());
+            Log.d(TAG, "LONG " + ((Double) location[1]).toString());
+            intent.putExtra("lat", location[0]);
+            intent.putExtra("lng", location[1]);
             startActivity(intent);
         } else {
             super.onMessageReceived( messageEvent );
         }
 
     }
+
+    private double[] randomLocationGenerator() {
+
+        Double NORTHERN_BOUND = 41.04621681;
+        Double SOUTHERN_BOUND = 33.13755119;
+        Double EASTERN_BOUND = -82.08984375;
+        Double WESTERN_BOUND = -117.09760666;
+
+        double lat = (double) (Math.random() * (NORTHERN_BOUND - SOUTHERN_BOUND)) + SOUTHERN_BOUND;
+        double lng = (double) (Math.random() * (EASTERN_BOUND - WESTERN_BOUND)) + WESTERN_BOUND;
+
+        return new double[]{lat, lng};
+    }
 }
+
